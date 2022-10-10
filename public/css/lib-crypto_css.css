@@ -818,7 +818,6 @@ nav {
     font: var(--lc-font-bold);
 }
 
-
 /* mode */
     #dark-mode, .dark-mode {
         background-color: black;
@@ -903,6 +902,40 @@ nav {
     padding: 15px;
 }
 
+/* icone blanche */
+#ico-white, .ico-white {
+    background: var(--lc-bg_color-4);
+    color: white;
+    width: 21px;
+    height: 21px;
+    border: transparent;
+        border-radius: 5px;
+}
+
+/* table */
+table, tr, td {
+    background: white;
+    color: var(--lc-black-rgb);
+    border: var(--lc-black-rgb);
+    width: 100%;
+    height: auto;
+}
+
+#table, .table {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-text-color-1);
+    width: 100%;
+    height: auto;
+}
+#tr, .tr, #td, .td {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-text-color-1);
+    width: auto;
+    height: auto;
+}
+
+
+
 
 
 
@@ -912,7 +945,6 @@ nav {
             [.btn-hover-rs]
             rs = reseau sociaux
         main
-        table, tr, td
         aside (à developpé)
             aside-left, aside-right
         input (à developpé)
@@ -922,5 +954,4 @@ nav {
 
 
     balises :
-        table, tr, td,
 */

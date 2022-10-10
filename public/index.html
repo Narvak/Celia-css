@@ -67,6 +67,10 @@
         </a>
     </header>
 
+    <div class="ico-white">
+        <img src="" alt="ico-white 1">
+    </div>
+
         <div class="flex">
             <p>
                 Lorem ipsum, <br />
