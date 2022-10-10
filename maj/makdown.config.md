@@ -6,5 +6,6 @@
     chmode 775 setup.sh
     chmode 777 setup.sh
 
-### 2) SFUSER SFPASS SFGITCLONEPROJ
+### 2) Le téléchargement
+    SFUSER SFPASS SFGITCLONEPROJ
     ./setup.sh admin root gitcloneproj
