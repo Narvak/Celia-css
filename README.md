@@ -8,13 +8,16 @@
     Celia-css
 
 ## Version
-    V 0.5.5
+    V 0.6.5
  
 ## Date de création
-    01/06/2022
+    15/05/2022
  
 ## Créateur
     Narvak
  
 ## Contributeurs
     Narvak
+
+## Pour le téléchargement
+    git clone https://github.com/Narvak/Celia-css.git

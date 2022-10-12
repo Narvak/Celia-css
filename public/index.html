@@ -14,6 +14,7 @@
             <link rel="stylesheet" type="text/css" href="css/slide.css">
 		    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
             <link rel="stylesheet" type="text/css" href="css/font.css">
+            <link rel="stylesheet" type="text/css" href="css/animate.css">
 
         <!-- Favicon -->
 		    <link rel="icon" type="image/x-icon" href="media/svg/logo.svg"/>
@@ -34,12 +35,12 @@
                     <script src="javascript/jquery/jquery.js"></script>
 
             <!-- Title -->
-		    <title>Lorem ipsum | Index</title>
+		    <title>Celia-css | Index HTML</title>
 	</head>
 	<body>
 
 <!-- General-->
-	<header class="flex-center">
+	<header class="flex-center" onclick="navBarre(this)">
         <a href="#">
             <h1>lorem ipsum</h1>
         </a>
@@ -68,7 +69,11 @@
     </header>
 
     <div class="ico-white">
-        <img src="" alt="ico-white 1">
+        <img src="media/ico/" alt="ico-white 1">
+    </div>
+
+    <div class="bg-size bg-2-color">
+        <span class="effect-1"></span>
     </div>
 
         <div class="flex">
@@ -126,7 +131,7 @@
                 Addresse.: <br />
         </div>
 
-	<footer class="flex-center marges">
+	<footer class="flex-center marges flex">
         <!-- BUTTON MODE -->
             <button class="button-mode box-shadow marges" onclick="darkmode(this)">Dark-mode</button>
             <button class="button-mode box-shadow marges" onclick="lightmode(this)">Light-mode</button>

@@ -5,7 +5,7 @@
     * name : lib-crypto_css
     * git hub : https://github.com/narvak/lib-crypto_css
 */
-:root {
+:root, #root, .root {
     --lc-blue: #0d6efd;
     --lc-indigo: #6610f2;
     --lc-purple: #6f42c1;
@@ -349,6 +349,8 @@ aside {
 
 /* flex */
 #flex, .flex {
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     padding: 5px;
@@ -778,6 +780,42 @@ nav {
     background-color: silver;
 }
 
+#bg-1-color, .bg-1-color {
+    background-color: var(--lc-bg_color-1);
+}
+#bg-2-color, .bg-2-color {
+    background-color: var(--lc-bg_color-2);
+}
+#bg-3-color, .bg-3-color {
+    background-color: var(--lc-bg_color-3);
+}
+#bg-4-color, .bg-4-color {
+    background-color: var(--lc-bg_color-4);
+}
+#bg-5-color, .bg-5-color {
+    background-color: var(--lc-bg_color-5);
+}
+#bg-6-color, .bg-6-color {
+    background-color: var(--lc-bg_color-4);
+}
+#bg-7-color, .bg-7-color {
+    background-color: var(--lc-bg_color-4);
+}
+
+    /* Background size */
+    #bg-size, .bg-size {
+        width: 100%;
+        height: auto;
+    }
+    #bg-size-100, .bg-size-100 {
+        width: 100%;
+        height: 100%;
+    }
+    #bg-size-auto, .bg-size-auto {
+        width: auto;
+        height: auto;
+    }
+
 /* text */
 #text-blue, .text-blue {
     color: blue;
@@ -812,10 +850,63 @@ nav {
 #text-silver, .text-silver {
     color: silver;
 }
+
+#text-1, .text-1 {
+    background-color: var(--lc-bg_color-1);
+}
+#text-2, .text-2 {
+    background-color: var(--lc-bg_color-2);
+}
+#text-3, .text-3 {
+    background-color: var(--lc-bg_color-3);
+}
+#text-4, .text-4 {
+    background-color: var(--lc-bg_color-4);
+}
+#text-5, .text-5 {
+    background-color: var(--lc-bg_color-5);
+}
+#text-6, .text-6 {
+    background-color: var(--lc-bg_color-4);
+}
+#text-7, .text-7 {
+    background-color: var(--lc-bg_color-4);
+}
+
 #text-active, .text-active {
     background: transparent;
     color: var(--lc-text-color-1);
     font: var(--lc-font-bold);
+}
+#text-active-botom, .text-active-botom {
+    background: transparent;
+    color: var(--lc-text-color-1);
+    font: var(--lc-font-bold);
+    border-bottom: var(--lc-text-color-1);
+}
+#text-active-botom, .text-active-botom {
+    background: transparent;
+    color: var(--lc-text-color-1);
+    font: var(--lc-font-bold);
+    border-bottom: var(--lc-text-color-1);
+}
+#text-active-top, .text-active-top {
+    background: transparent;
+    color: var(--lc-text-color-1);
+    font: var(--lc-font-bold);
+    border-top: var(--lc-text-color-1);
+}
+#text-active-right, .text-active-right {
+    background: transparent;
+    color: var(--lc-text-color-1);
+    font: var(--lc-font-bold);
+    border-right: var(--lc-text-color-1);
+}
+#text-active-left, .text-active-left {
+    background: transparent;
+    color: var(--lc-text-color-1);
+    font: var(--lc-font-bold);
+    border-left: var(--lc-text-color-1);
 }
 
 /* mode */
@@ -940,6 +1031,7 @@ table, tr, td {
 
 
 /*
+Renplacé background en background-color
     class et id :
         button :hover (à developpé)
             [.btn-hover-rs]
