@@ -179,9 +179,10 @@ aside {
     color: black;
     width: 75%;
     height: auto;
-        display: flex;
+    margin: auto;
+        /*display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center;*/
 }
 #container-fluid, .container-fluid {
     background: #9a9a9a;
@@ -381,7 +382,11 @@ aside {
     row-gap: auto;
     padding: 5px;
 }
-
+#grid-container, .grid-container {
+    display: inline-block;
+    width: 35%;
+    height: auto;
+}
 #wrapper-grid, .wrapper-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -688,14 +693,16 @@ nav {
 
 /* button */
 #button, .button, #btn, .btn {
-    width: 144px;
-    height: 55px;
+    width: 144px !important;
+    height: 55px !important;
     border: transparent;
         border-radius: 5px;
 }
 .btn-active, .btn-active {
     background-color: var(--lc-cyan) !important;
     color: var(--lc-white) !important;
+    width: auto;
+    height: auto;
 }
 #btn-nav, .btn-nav {
     background: var(--lc-bg_color-2);
@@ -780,32 +787,48 @@ nav {
     background-color: silver;
 }
 
-#bg-1-color, .bg-1-color {
+#bg-one-color, .bg-one-color {
     background-color: var(--lc-bg_color-1);
+    margin: 5px;
+    padding: 5px;
 }
-#bg-2-color, .bg-2-color {
+#bg-two-color, .bg-two-color {
     background-color: var(--lc-bg_color-2);
+    margin: 5px;
+    padding: 5px;
 }
-#bg-3-color, .bg-3-color {
+#bg-three-color, .bg-three-color {
     background-color: var(--lc-bg_color-3);
+    margin: 5px;
+    padding: 5px;
 }
-#bg-4-color, .bg-4-color {
+#bg-four-color, .bg-four-color {
     background-color: var(--lc-bg_color-4);
+    margin: 5px;
+    padding: 5px;
 }
-#bg-5-color, .bg-5-color {
+#bg-five-color, .bg-five-color {
     background-color: var(--lc-bg_color-5);
+    margin: 5px;
+    padding: 5px;
 }
-#bg-6-color, .bg-6-color {
+#bg-six-color, .bg-six-color {
     background-color: var(--lc-bg_color-4);
+    margin: 5px;
+    padding: 5px;
 }
-#bg-7-color, .bg-7-color {
+#bg-seven-color, .bg-seven-color {
     background-color: var(--lc-bg_color-4);
+    margin: 5px;
+    padding: 5px;
 }
 
     /* Background size */
     #bg-size, .bg-size {
         width: 100%;
         height: auto;
+        margin: 5px;
+        padding: 5xp;
     }
     #bg-size-100, .bg-size-100 {
         width: 100%;
@@ -993,12 +1016,24 @@ nav {
     padding: 15px;
 }
 
-/* icone blanche */
+/* icones */
 #ico-white, .ico-white {
     background: var(--lc-bg_color-4);
     color: white;
-    width: 21px;
-    height: 21px;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    align-items: center;
+    border: transparent;
+        border-radius: 5px;
+}
+#ico-black, .ico-black {
+    background: var(--lc-bg_color-4);
+    color: black;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    align-items: center;
     border: transparent;
         border-radius: 5px;
 }
@@ -1046,4 +1081,11 @@ Renplacé background en background-color
 
 
     balises :
+
+
+    margin: auto;
+
+    display: inline-block;
+    width: 30%;
+    height: auto;
 */
