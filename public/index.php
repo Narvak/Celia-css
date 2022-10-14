@@ -69,10 +69,10 @@
     </header>
 
     <div class="ico-white">
-        <img src="media/ico/" alt="ico-white 1">
+        <img src="media/ico/" alt="ico-1">
     </div>
 
-    <div class="bg-size bg-2-color">
+    <div class="bg-size bg-two-color">
         <span class="effect-1"></span>
     </div>
 
@@ -97,6 +97,7 @@
 
         <div class="container">
             <!-- ABOUT -->
+            <div class="grid-container">
                 <p>
                     Lorem ipsum, <br />
                     dolor sit amet consectetur adipisicing elit. <br />
@@ -106,6 +107,8 @@
                     ratione ex quisquam deleniti ducimus tempore natus alias ut dolor molestiae, <br />
                     et voluptates. <br />
                 </p>
+            </div>
+            <div class="grid-container">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
                     Voluptate veritatis reiciendis iusto, <br />
@@ -113,6 +116,7 @@
                     voluptatum placeat adipisci quidem ducimus consequatur voluptatem, <br />
                     fugit earum deserunt deleniti cumque aliquam non repudiandae vero. <br />
                 </p>
+            </div>
         </div>
 
         <div class="flex">
@@ -124,7 +128,7 @@
                 <img src="media/" class="img-fluid">
         </div>
 
-        <div id="container-fluid contact">
+        <div id="contact">
             <!-- CONTACT -->
                 Tel.: <br />
                 Mail.: <br />
