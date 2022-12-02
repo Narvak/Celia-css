@@ -1016,28 +1016,6 @@ nav {
     padding: 15px;
 }
 
-/* icones */
-#ico-white, .ico-white {
-    background: var(--lc-bg_color-4);
-    color: white;
-    width: 34px;
-    height: 34px;
-    text-align: center;
-    align-items: center;
-    border: transparent;
-        border-radius: 5px;
-}
-#ico-black, .ico-black {
-    background: var(--lc-bg_color-4);
-    color: black;
-    width: 34px;
-    height: 34px;
-    text-align: center;
-    align-items: center;
-    border: transparent;
-        border-radius: 5px;
-}
-
 /* table */
 table, tr, td {
     background: white;

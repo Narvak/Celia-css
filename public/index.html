@@ -35,42 +35,47 @@
                     <script src="javascript/jquery/jquery.js"></script>
 
             <!-- Title -->
-		    <title>Celia-css | Index HTML</title>
+		    <title>Celia-css || Index HTML</title>
 	</head>
 	<body>
 
 <!-- General-->
-	<header class="flex-center" onclick="navBarre(this)">
-        <a href="#">
-            <h1>lorem ipsum</h1>
-        </a>
+	<header class="flex-center" onclick="nav(this)" id="burger">
+        <div class="sidenav">
+            <a href="#">
+                <h1>lorem ipsum</h1>
+            </a>
+    
+            <a href="#">
+                <button class="button active btn-active">
+                    <p class="text-active ">Home</p>
+                </button>
+            </a>
+            <a href="#">
+                <button class="btn-nav button">
+                    <p>Service</p>
+                </button>
+            </a>
+            <a href="#">
+                <button class="btn-nav button">
+                    <p>Contact</p>
+                </button>
+            </a>
+    
+            <a href="#">
+                <button class="btn-nav btn-right button">
+                    <p>About &rarr;</p>
+                </button>
+            </a>
+        </div>
+        
 
-        <a href="#">
-            <button class="button active btn-active">
-                <p class="text-active ">Home</p>
-            </button>
-        </a>
-        <a href="#">
-            <button class="btn-nav button">
-                <p>Service</p>
-            </button>
-        </a>
-        <a href="#">
-            <button class="btn-nav button">
-                <p>Contact</p>
-            </button>
-        </a>
-
-        <a href="#">
-            <button class="btn-nav btn-right button">
-                <p>About &rarr;</p>
-            </button>
-        </a>
+        <div class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </header>
-
-    <div class="ico-white">
-        <img src="media/ico/" alt="ico-1">
-    </div>
 
     <div class="bg-size bg-two-color">
         <span class="effect-1"></span>

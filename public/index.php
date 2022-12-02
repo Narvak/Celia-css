@@ -35,7 +35,7 @@
                     <script src="javascript/jquery/jquery.js"></script>
 
             <!-- Title -->
-		    <title>Celia-css | Index PHP</title>
+		    <title>Celia-css | Index HTML</title>
 	</head>
 	<body>
 
@@ -67,10 +67,6 @@
             </button>
         </a>
     </header>
-
-    <div class="ico-white">
-        <img src="media/ico/" alt="ico-1">
-    </div>
 
     <div class="bg-size bg-two-color">
         <span class="effect-1"></span>
