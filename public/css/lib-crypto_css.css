@@ -6,49 +6,14 @@
     * git hub : https://github.com/narvak/lib-crypto_css
 */
 :root, #root, .root {
-    /*--lc-blue: #0d6efd;
-    --lc-indigo: #6610f2;
-    --lc-purple: #6f42c1;
-    --lc-pink: #d63384;
-    --lc-red: #dc3545;
-    --lc-orange: #fd7e14;
-    --lc-yellow: #ffc107;
-    --lc-green: #198754;
-    --lc-teal: #1abc9c;
-    --lc-cyan: #0dcaf0;
-    --lc-white: #fff;
-    --lc-gray: #6c757d;
-    --lc-gray-dark: #343a40;
-    --lc-gray-100: #f8f9fa;
-    --lc-gray-200: #e9ecef;
-    --lc-gray-300: #dee2e6;
-    --lc-gray-400: #ced4da;
-    --lc-gray-500: #adb5bd;
-    --lc-gray-600: #6c757d;
-    --lc-gray-700: #495057;
-    --lc-gray-800: #343a40;
-    --lc-gray-900: #212529;*/
-
     --lc-primary: #007bff;
     --lc-secondary: #6c757d;
-    --lc-success: #198754;
-    --lc-info: #0dcaf0;
+    --lc-success: #28a745;
+    --lc-info: #17a2b8;
     --lc-warning: #ffc107;
     --lc-danger: #dc3545;
     --lc-light: #f8f9fa;
-    --lc-dark: #212529;
-    --lc-primary-rgb: 26, 188, 156;
-    --lc-secondary-rgb: 44, 62, 80;
-    --lc-success-rgb: 25, 135, 84;
-    --lc-info-rgb: 13, 202, 240;
-    --lc-warning-rgb: 255, 193, 7;
-    --lc-danger-rgb: 220, 53, 69;
-    --lc-light-rgb: 248, 249, 250;
-    --lc-dark-rgb: 33, 37, 41;
-    --lc-white-rgb: 255, 255, 255;
-    --lc-black-rgb: 0, 0, 0;
-    --lc-body-color-rgb: 33, 37, 41;
-    --lc-body-bg-rgb: 255, 255, 255;
+    --lc-dark: #343a40;
 
     --lc-font-light: "calibri" light sans-serif;
     --lc-font-regular: "calibri" regular sans-serif;
@@ -148,8 +113,8 @@ aside {
     height: auto;
 }
 #active, .active {
-    background-color: var(--lc-cyan) !important;
-    color: var(--lc-white) !important;
+    background-color: var(--lc-primary) !important;
+    color: var(--lc-light) !important;
 }
 #filter, .filter {
     border: 2px solid var(--lc-bg_color-2);
@@ -709,10 +674,11 @@ nav {
     height: 55px !important;
     border: transparent;
         border-radius: 5px;
+    text-align: center;
 }
 .btn-active, .btn-active {
-    background-color: var(--lc-cyan) !important;
-    color: var(--lc-white) !important;
+    background-color: var(--lc-primary) !important;
+    color: var(--lc-light) !important;
     width: auto;
     height: auto;
 }
@@ -721,6 +687,7 @@ nav {
     color: var(--lc-text-color-2);
     border: transparent;
         border-radius: 10px;
+    text-align: center;
     width: auto;
     height: auto;
 }
@@ -825,12 +792,12 @@ nav {
     padding: 5px;
 }
 #bg-six-color, .bg-six-color {
-    background-color: var(--lc-bg_color-4);
+    background-color: var(--lc-bg_color-6);
     margin: 5px;
     padding: 5px;
 }
 #bg-seven-color, .bg-seven-color {
-    background-color: var(--lc-bg_color-4);
+    background-color: var(--lc-bg_color-7);
     margin: 5px;
     padding: 5px;
 }
@@ -910,7 +877,7 @@ nav {
 
 #text-active, .text-active {
     background: transparent;
-    color: var(--lc-text-color-1);
+    color: var(--lc-light);
     font: var(--lc-font-bold);
 }
 #text-active-botom, .text-active-botom {
