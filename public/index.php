@@ -34,38 +34,54 @@
                 <!-- mon Jquery -->
                     <script src="javascript/jquery/jquery.js"></script>
 
-            <!-- Title -->
-		    <title>Celia-css | Index HTML</title>
+
+        <!-- Javascript -->
+            <script src="javascript/js/app.js"></script>
+            <script src="javascript/js/javascript.js"></script>
+
+        <!-- Title -->
+		    <title>Celia-css || Index PHP</title>
 	</head>
 	<body>
 
 <!-- General-->
-	<header class="flex-center" onclick="navBarre(this)">
+	<header class="flex-center" onclick="nav(this)" id="burger">
+
         <a href="#">
             <h1>lorem ipsum</h1>
         </a>
 
-        <a href="#">
-            <button class="button active btn-active">
-                <p class="text-active ">Home</p>
-            </button>
-        </a>
-        <a href="#">
-            <button class="btn-nav button">
-                <p>Service</p>
-            </button>
-        </a>
-        <a href="#">
-            <button class="btn-nav button">
-                <p>Contact</p>
-            </button>
-        </a>
+        <div class="side-nav">
+            <a href="#">
+                <button class="button active btn-active">
+                    <p class="text-active ">Home</p>
+                </button>
+            </a>
+            <a href="#">
+                <button class="btn-nav button">
+                    <p>Service</p>
+                </button>
+            </a>
+            <a href="#">
+                <button class="btn-nav button">
+                    <p>Contact</p>
+                </button>
+            </a>
+    
+            <a href="#">
+                <button class="btn-nav btn-right button">
+                    <p>About &rarr;</p>
+                </button>
+            </a>
+        </div>
+        
 
-        <a href="#">
-            <button class="btn-nav btn-right button">
-                <p>About &rarr;</p>
-            </button>
-        </a>
+        <div class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
     </header>
 
     <div class="bg-size bg-two-color">
@@ -73,7 +89,7 @@
     </div>
 
         <div class="flex">
-            <p>
+            <p class="marges-5">
                 Lorem ipsum, <br />
                 dolor sit amet consectetur adipisicing elit. <br />
                 Suscipit in voluptatum asperiores quo illo, <br />
@@ -82,7 +98,7 @@
                 ratione ex quisquam deleniti ducimus tempore natus alias ut dolor molestiae, <br />
                 et voluptates. <br />
             </p>
-            <p>
+            <p class="marges-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
                 Voluptate veritatis reiciendis iusto, <br />
                 ipsam mollitia, <br />
@@ -93,7 +109,7 @@
 
         <div class="container">
             <!-- ABOUT -->
-            <div class="grid-container">
+            <div class="grid-container marges-5">
                 <p>
                     Lorem ipsum, <br />
                     dolor sit amet consectetur adipisicing elit. <br />
@@ -104,7 +120,7 @@
                     et voluptates. <br />
                 </p>
             </div>
-            <div class="grid-container">
+            <div class="grid-container marges-5">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
                     Voluptate veritatis reiciendis iusto, <br />
@@ -117,18 +133,24 @@
 
         <div class="flex">
             <!-- SERVICE -->
+            <div class="card-fluid-transparent">
                 <img src="media/" class="img-square">
                 <img src="media/" class="img-circle">
                 <img src="media/" class="img-square-h">
                 <img src="media/" class="img-square-l">
+            </div>
+            <div class="card-fluid-transparent">
                 <img src="media/" class="img-fluid">
+            </div>
         </div>
 
         <div id="contact">
             <!-- CONTACT -->
-                Tel.: <br />
-                Mail.: <br />
-                Addresse.: <br />
+                <p class="marges-5">
+                    Tel.: <br />
+                    Mail.: <br />
+                    Adresse.: <br />
+                </p>
         </div>
 
 	<footer class="flex-center marges flex">

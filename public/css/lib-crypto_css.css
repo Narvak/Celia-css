@@ -6,7 +6,7 @@
     * git hub : https://github.com/narvak/lib-crypto_css
 */
 :root, #root, .root {
-    --lc-blue: #0d6efd;
+    /*--lc-blue: #0d6efd;
     --lc-indigo: #6610f2;
     --lc-purple: #6f42c1;
     --lc-pink: #d63384;
@@ -27,9 +27,10 @@
     --lc-gray-600: #6c757d;
     --lc-gray-700: #495057;
     --lc-gray-800: #343a40;
-    --lc-gray-900: #212529;
-    --lc-primary: #1abc9c;
-    --lc-secondary: #2c3e50;
+    --lc-gray-900: #212529;*/
+
+    --lc-primary: #007bff;
+    --lc-secondary: #6c757d;
     --lc-success: #198754;
     --lc-info: #0dcaf0;
     --lc-warning: #ffc107;
@@ -83,7 +84,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
-    padding: 5px;
+    padding: 0;
     font-family: var(--lc-font-regular);
     text-align : justify;
 }
@@ -354,25 +355,29 @@ aside {
     height: auto;
     display: flex;
     align-items: center;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
 }
 #flex-left, .flex-left {
     display: flex;
     align-items: center;
     justify-content: left;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
 }
 #flex-center, .flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
 }
 #flex-right, .flex-right {
     display: flex;
     align-items: center;
     justify-content: right;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
 }
 
 /* grid */
@@ -578,6 +583,13 @@ nav {
 #card-fluid-light, .card-fluid-light {
     background-color: var(--lc-light);
     color: white;
+    width: 100%;
+    height: auto;
+}
+
+#card-fluid-transparent, .card-fluid-transparent {
+    background-color: transparent;
+    color: black;
     width: 100%;
     height: auto;
 }

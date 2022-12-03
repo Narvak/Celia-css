@@ -1,5 +1,5 @@
 /* Sidenav menu */
-.sidenav {
+.side-nav {
   height: 100%;
   width: 250px;
   position: fixed;
@@ -12,7 +12,7 @@
 }
 
 /* Sidenav menu links */
-.sidenav a {
+.side-nav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -21,23 +21,23 @@
   transition: 0.3s;
 }
 
-.sidenav a:hover {
+.side-nav a:hover {
   color: #111;
 }
 
-.sidenav ul {
+.side-nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 /* Active class */
-.sidenav.active {
+.side-nav.active {
   left: 0;
 }
 
 /* Close btn */
-.sidenav .close {
+.side-nav .close {
   position: absolute;
   top: 0;
   right: 25px;
@@ -46,9 +46,11 @@
 
 /* Icône burger */
 .burger-icon span {
-  display: block;
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    flex-direction: column;
+    justify-content: space-between;
 }
