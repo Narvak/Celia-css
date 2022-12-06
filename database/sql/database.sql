@@ -15,3 +15,4 @@ CREATE TABLE contact (
 CREATE TABLE newsletter (
   `email` varchar(100) NOT NULL,
 );
+
