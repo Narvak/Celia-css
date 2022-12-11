@@ -40,48 +40,46 @@
             <script src="javascript/js/javascript.js"></script>
 
         <!-- Title -->
-		    <title>Celia-css || Index PHP</title>
+		    <title>Celia-css || Index HTML</title>
 	</head>
 	<body>
 
 <!-- General-->
 	<header class="flex-center" >
-
-        <a href="#" class="marges-10">
-            <h1>lorem ipsum</h1>
-        </a>
-
-        <div class="side-nav" id="burger">
-            <a href="#">
-                <button class="button btn-active text-active">
-                    Home
-                </button>
+        <nav class="flex-center"">
+            <a href="#" class="marges-10">
+                <h1>Celia-css</h1>
             </a>
-            <a href="#">
-                <button class="btn-nav button">
-                    Service
-                </button>
-            </a>
-            <a href="#">
-                <button class="btn-nav button">
-                    Contact
-                </button>
-            </a>
-    
-            <a href="#">
-                <button class="btn-nav button">
-                    About &rarr;
-                </button>
-            </a>
-        </div>
+            <div class="side-nav close burger" id="burger link" onclick="burger(this)">
+                <a href="#">
+                    <button class="button btn-active text-active">
+                        Home
+                    </button>
+                </a>
+                <a href="#">
+                    <button class="btn-nav button">
+                        Service
+                    </button>
+                </a>
+                <a href="#">
+                    <button class="btn-nav button">
+                        Contact
+                    </button>
+                </a>
         
+                <a href="#">
+                    <button class="btn-nav button">
+                        About &rarr;
+                    </button>
+                </a>
+            </div>
 
-        <div class="burger-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
+            <div id="link">
+                <span class="span-burger "></span>
+                <span class="span-burger "></span>
+                <span class="span-burger "></span>
+            </div>
+        </nav>
     </header>
 
     <div class="bg-size bg-two-color">
