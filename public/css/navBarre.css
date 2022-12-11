@@ -55,7 +55,7 @@
     justify-content: space-between;
 }*/
 
-.span-burger {
+.spanBurger {
     background-color: white;
     color: black;
     width: 25px;
@@ -65,7 +65,7 @@
 .burger {
     background: white;
     width: 30px;
-    height: 2px;
+    height: 30px;
     display: inline-block;
     position: relative;
 }
