@@ -1,23 +1,23 @@
 # Lib-crypto_css
 
 ## A propos
-    Celia-css est une librairie CSS open source.
-    Ce repo est la documentation officielle de cette librairie.
+### Celia-css est une librairie CSS open source.
+### Ce repo est la documentation officielle de cette librairie.
 
 ## Name
-    Celia-css
+### Celia-css
 
 ## Version
-    V 0.6.5
+### V 0.7.5
  
 ## Date de création
-    15/05/2022
+### 15/05/2022
  
 ## Créateur
-    Narvak
+### Narvak
  
 ## Contributeurs
-    Narvak
+### Narvak
 
 ## Pour le téléchargement
     git clone https://github.com/Narvak/Celia-css.git
