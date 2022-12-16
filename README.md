@@ -9,13 +9,27 @@
 
 ## Version
 ### V 0.8.0
- 
+
+## A ajouté / amelioré
+### Renplacé background en background-color
+### class et id :
+### button :hover (à developpé)
+### [ .btn-hover-rs ]
+### rs = reseau sociaux
+### main
+### aside (à developpé)
+### aside-left, aside-right
+### input (à developpé)
+### [input => :hover, input => :focus]
+### float
+### [left, right]
+
 ## Date de création
 ### 15/05/2022
- 
+
 ## Créateur
 ### Narvak
- 
+
 ## Contributeurs
 ### Narvak
 
