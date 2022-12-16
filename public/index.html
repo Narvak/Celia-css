@@ -18,21 +18,11 @@
 
         <!-- Favicon -->
 		    <link rel="icon" type="image/x-icon" href="media/svg/logo.svg"/>
-
-        <!-- Jquery -->
-            <!-- import / cdn -->
-                <!-- jquery -->
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-                    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY=" crossorigin="anonymous"></script>
-                <!-- paralax -->
-                    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
-            <!-- Jquery -->
-                <!-- paralax -->
-                    <script src="javascript/jquery/parallax.js"></script>
+            <!-- JavaScript -->
                 <!-- nav barre -->
-                    <script src="javascript/jquery/navbarre_script.js"></script>
-                <!-- mon Jquery -->
-                    <script src="javascript/jquery/jquery.js"></script>
+                    <script src="javascript/other/navbarre_script.js"></script>
+                <!-- ColorMode -->
+                    <script src="javascript/other/colorMode.js"></script>
 
 
         <!-- Javascript -->
@@ -53,9 +43,9 @@
                     <h1 class="marges-5">Celia-css</h1>
                 </a>
             </div>
-            <div class="side-nav close" onclick="burger(this)">
+            <div class="side-nav">
                 <a href="#">
-                    <button class="button btn-active text-active">
+                    <button class="home button btn-active text-active">
                         Home
                     </button>
                 </a>
@@ -77,11 +67,47 @@
                 </a>
             </div>
 
-            <div class="burger">
-                <div class="spanBurger"></div>
-                <div class="spanBurger"></div>
-                <div class="spanBurger"></div>
-            </div>
+            
+                <button class="burger" id="myBtn" onclick="toggleSplitburger(this)">
+                    <span class="spanBurger" id="myBtn">        </span>
+                    <span class="spanBurger" id="myBtn">        </span>
+                    <span class="spanBurger" id="myBtn">        </span>
+                </button>
+
+                <div class="modal-menu" id="myModal" hidden>
+                    <div>
+                        <button class="close-modal" id="close" onclick="closeModal(this)">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="nav-modal">
+                        <div class="nav-modal">
+                            <a href="#">
+                                <button class="button btn-active text-active">
+                                    Home
+                                </button>
+                            </a>
+                            <a href="#">
+                                <button class="btn-nav button">
+                                    Service
+                                </button>
+                            </a>
+                            <a href="#">
+                                <button class="btn-nav button">
+                                    Contact
+                                </button>
+                            </a>
+                    
+                            <a href="#">
+                                <button class="btn-nav button">
+                                    About &rarr;
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
         </nav>
     </header>
 

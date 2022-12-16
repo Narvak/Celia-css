@@ -3,7 +3,7 @@
 
 /*
     * name : lib-crypto_css
-    * git hub : https://github.com/narvak/lib-crypto_css
+    * git hub : https://github.com/narvak/Celia-css
 */
 :root, #root, .root {
     --lc-primary: #007bff;
@@ -141,7 +141,7 @@ aside {
     height: auto;
 }
 #container, .container {
-    background: #9a9a9a;
+    background: var(--lc-bg_color-5);
     color: black;
     width: 75%;
     height: auto;
@@ -151,7 +151,7 @@ aside {
         justify-content: center;*/
 }
 #container-fluid, .container-fluid {
-    background: #9a9a9a;
+    background: var(--lc-bg_color-7);
     color: black;
     width: 100%;
     height: auto;
@@ -676,11 +676,14 @@ nav {
         border-radius: 5px;
     text-align: center;
 }
-.btn-active, .btn-active {
+#btn-active, .btn-active {
     background-color: var(--lc-primary) !important;
     color: var(--lc-light) !important;
     width: auto;
     height: auto;
+    border: transparent;
+        border-radius: 5px;
+    text-align: center;
 }
 #btn-nav, .btn-nav {
     background: var(--lc-bg_color-2);

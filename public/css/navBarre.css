@@ -1,43 +1,13 @@
 /* Sidenav menu */
 .side-nav {
-  height: 100%;
   width: 250px;
+  height: auto;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  left: -250px;
-  background-color: #e8e8e8;
-  padding-top: 60px;
   transition: left 0.5s ease;
 }
 
-/* Sidenav menu links */
-.side-nav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.side-nav a:hover {
-  color: #111;
-}
-
-.side-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Active class */
-.side-nav.active {
-  left: 0;
-}
-
 /* Close btn */
-.side-nav .close {
+.side-nav {
   position: absolute;
   top: 0;
   right: 25px;
@@ -45,7 +15,7 @@
 }
 
 /* Icône burger */
-/*.burger-icon span {
+.burger-icon span {
     background-color: black;
     width: 35px;
     height: 5px;
@@ -53,19 +23,70 @@
     display: block;
     flex-direction: column;
     justify-content: space-between;
-}*/
+}
 
 .spanBurger {
-    background-color: white;
-    color: black;
-    width: 25px;
-    height: 2px;
+  background-color: black;
+  color: black;
+  width: 89% !important;
+  height: 15% !important;
+  margin: auto;
+  justify-content: space-around;
+  border-radius: 2px;
+  flex-direction: column;
 }
 
 .burger {
-    background: white;
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    position: relative;
+  background-color: white;
+  color: black;
+  width: 55px;
+  height: 55px;
+  border-radius: 2px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
 }
+
+.spanRotateSpan {
+  transform: rotate(45deg);
+}
+.spanReversRotateSpan {
+  transform: rotate(-45deg);
+}
+
+/* modal menu */
+
+   /* The Modal (background) */
+    .modal-menu, #myModal {
+      background-color: #7a8a9a;
+      color: #9a8a7a;
+      width: 100%;
+      height: auto;
+      margin: auto;
+      padding: 5px;
+      display: grid;
+      flex-direction: column;
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%; /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover, .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }

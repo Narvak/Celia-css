@@ -8,7 +8,7 @@
 ### Celia-css
 
 ## Version
-### V 0.7.5
+### V 0.8.0
  
 ## Date de création
 ### 15/05/2022
