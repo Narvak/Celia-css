@@ -8,10 +8,10 @@
 ### Celia-css
 
 ## Version
-### V 0.8.0
+### V 0.8.5
 
 ## A ajouté / amelioré
-#### Renplacé background en background-color
+#### Renplacé background par background-color
 #### class et id :
 #### button :hover (à developpé)
 #### [ .btn-hover-rs ]

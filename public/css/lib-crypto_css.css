@@ -1019,33 +1019,3 @@ table, tr, td {
     width: auto;
     height: auto;
 }
-
-
-
-
-
-
-/*
-Renplacé background en background-color
-    class et id :
-        button :hover (à developpé)
-            [.btn-hover-rs]
-            rs = reseau sociaux
-        main
-        aside (à developpé)
-            aside-left, aside-right
-        input (à developpé)
-            [input => :hover, input => :focus]
-        float
-            [left, right]
-
-
-    balises :
-
-
-    margin: auto;
-
-    display: inline-block;
-    width: 30%;
-    height: auto;
-*/
