@@ -2,6 +2,15 @@ function slide() {
     var varSlide = document.getElementById('')
     var varSlide = document.getElementsByClassName('')
 
+        function makeAlert(){ 
+            alert("Popup window!");
+        };
+        setInterval(varSlide, 500);
+        setInterval(function(){
+            alert("Popup window!");
+        }, 500);
+
+    console.log(makeAlert)
     console.log(varSlide)
 }
 

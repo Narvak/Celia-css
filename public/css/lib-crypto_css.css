@@ -89,68 +89,65 @@ aside {
 }
 
 /* id et class */
-#body, .body, #html, .html {
+.body, .html {
     background: white;
     color: var(--lc-bg_color-1);
     width: 100%;
     height: auto;
 }
-#header, .header, #footer, .footer {
+.header, .footer {
     background: var(--lc-bg_color-3);
     color: var(--lc-text-color-1);
     width: 100%;
     height: auto;
 }
-#contact, .contact {
+.contact {
     background: var(--lc-bg_color-2);
     color: var(--lc-text-color-1);
     width: 100%;
     height: auto;
 }
-#logo, .logo {
+.logo {
     background: transparent;
     width: 144px;
     height: auto;
 }
-#active, .active {
+.active {
     background-color: var(--lc-primary) !important;
     color: var(--lc-light) !important;
 }
-#filter, .filter {
+.filter {
     border: 2px solid var(--lc-bg_color-2);
         border-radius: 5px;
 }
-#wrapper, .wrapper {
+.wrapper {
     width: 100%;
     height: auto;
 }
-#section, .section {
+.section {
     width: 100%;
     height: auto;
 }
-#paralax, .paralax {
+.paralax {
     background: var(--lc-bg_color-1);
     color: var(--lc-text-color-1);
     width: 0 auto;
     height: auto;
 }
-#conteneur, .conteneur {
+.conteneur {
     background: var(--lc-bg_color-1);
     color: var(--lc-text-color-1);
     width: 100%;
     height: auto;
 }
-#container, .container {
+.container {
     background: var(--lc-bg_color-5);
     color: black;
     width: 75%;
     height: auto;
     margin: auto;
-        /*display: flex;
-        align-items: center;
-        justify-content: center;*/
 }
-#container-fluid, .container-fluid {
+.container-fluid {
     background: var(--lc-bg_color-7);
     color: black;
     width: 100%;
@@ -159,19 +156,19 @@ aside {
         align-items: center;
         justify-content: center;
 }
-#contenaire, .contenaire {
+.contenaire {
     background: white;
     color: var(--lc-bg_color-1);
     width: 100%;
     height: auto;
 }
-#child, .child {
+.child {
     background: var(--lc-bg_color-1);
     color: var(--lc-text-color-1);
     width: 0 auto;
     height: auto;
 }
-#children, .children {
+.children {
     background: var(--lc-bg_color-1);
     color: var(--lc-text-color-1);
     width: 0 auto;
@@ -179,35 +176,35 @@ aside {
 }
 
 /* img */
-#img-square, .img-square {
+.img-square {
     background-color: white;
     width: 144px;
     height: 144px;
     border: transparent;
     border-radius: 15px;
 }
-#img-circle, .img-circle {
+.img-circle {
     background-color: white;
     width: 144px;
     height: 144px;
     border: transparent;
     border-radius: 100%;
 }
-#img-square-h, .img-square-h {
+.img-square-h {
     background-color: white;
     width: 144px;
     height: 233px;
     border: transparent;
     border-radius: 15px;
 }
-#img-square-l, .img-square-l {
+.img-square-l {
     background-color: white;
     width: 233px;
     height: 144px;
     border: transparent;
     border-radius: 15px;
 }
-#img-fluid, .img-fluid {
+.img-fluid {
     background-color: white;
     width: 100%;
     height: auto;
@@ -216,106 +213,106 @@ aside {
 }
 
 /* box-shadow */
-#box-shadow, .box-shadow {
+.box-shadow {
     box-shadow: 0px 0px 10px 0px var(--lc-bg_color-5);
 }
-#box-shadow-primary, .box-shadow-primary {
+.box-shadow-primary {
     box-shadow: 0px 0px 10px 0px var(--lc-primary);
 }
-#box-shadow-secondary, .box-shadow-secondary {
+.box-shadow-secondary {
     box-shadow: 0px 0px 10px 0px var(--lc-secondary);
 }
-#box-shadow-success, .box-shadow-success {
+.box-shadow-success {
     box-shadow: 0px 0px 10px 0px var(--lc-success);
 }
-#box-shadow-info, .box-shadow-info {
+.box-shadow-info {
     box-shadow: 0px 0px 10px 0px var(--lc-info);
 }
-#box-shadow-warning, .box-shadow-warning {
+.box-shadow-warning {
     box-shadow: 0px 0px 10px 0px var(--lc-warning);
 }
-#box-shadow-danger, .box-shadow-danger {
+.box-shadow-danger {
     box-shadow: 0px 0px 10px 0px var(--lc-danger);
 }
-#box-shadow-light, .box-shadow-light {
+.box-shadow-light {
     box-shadow: 0px 0px 10px 0px var(--lc-light);
 }
-#box-shadow-dark, .box-shadow-dark {
+.box-shadow-dark {
     box-shadow: 0px 0px 10px 0px var(--lc-dark);
 }
 
 /* width */
-#w-13, .w-13 {
+.w-13 {
     width: 13px;
 }
-#w-21, .w-21 {
+.w-21 {
     width: 21px;
 }
-#w-34, .w-34 {
+.w-34 {
     width: 34px;
 }
-#w-55, .w-55 {
+.w-55 {
     width: 55px;
 }
-#w-89, .w-89 {
+.w-89 {
     width: 89px;
 }
-#w-144, .w-144 {
+.w-144 {
     width: 144px;
 }
-#w-233, .w-233 {
+.w-233 {
     width: 233px;
 }
-#w-377, .w-377 {
+.w-377 {
     width: 377px;
 }
-#w-610, .w-610 {
+.w-610 {
     width: 610px;
 }
-#w-987, .w-987 {
+.w-987 {
     width: 987px;
 }
-#w-1597, .w-1597 {
+.w-1597 {
     width: 1597px;
 }
 
 /* height */
-#h-13, .h-13 {
+.h-13 {
     width: 13px;
 }
-#h-21, .h-21 {
+.h-21 {
     width: 21px;
 }
-#h-34, .h-34 {
+.h-34 {
     width: 34px;
 }
-#h-55, .h-55 {
+.h-55 {
     width: 55px;
 }
-#h-89, .h-89 {
+.h-89 {
     width: 89px;
 }
-#h-144, .h-144 {
+.h-144 {
     width: 144px;
 }
-#h-233, .h-233 {
+.h-233 {
     width: 233px;
 }
-#h-377, .h-377 {
+.h-377 {
     width: 377px;
 }
-#h-610, .h-610 {
+.h-610 {
     width: 610px;
 }
-#h-987, .h-987 {
+.h-987 {
     width: 987px;
 }
-#h-1597, .h-1597 {
+.h-1597 {
     width: 1597px;
 }
 
 /* flex */
-#flex, .flex {
+.flex {
     width: 100%;
     height: auto;
     display: flex;
@@ -323,21 +320,21 @@ aside {
     margin: 0;
     padding: 0;
 }
-#flex-left, .flex-left {
+.flex-left {
     display: flex;
     align-items: center;
     justify-content: left;
     margin: 0;
     padding: 0;
 }
-#flex-center, .flex-center {
+.flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0;
 }
-#flex-right, .flex-right {
+.flex-right {
     display: flex;
     align-items: center;
     justify-content: right;
@@ -346,18 +343,18 @@ aside {
 }
 
 /* grid */
-#grid, .grid {
+.grid {
     display: grid;
     column-gap: auto;
     row-gap: auto;
     padding: 5px;
 }
-#grid-container, .grid-container {
+.grid-container {
     display: inline-block;
     width: 35%;
     height: auto;
 }
-#wrapper-grid, .wrapper-grid {
+.wrapper-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -371,131 +368,131 @@ nav {
     width: 100%;
     height: auto;
 }
-#nav, .nav {
+.nav {
     background: var(--lc-bg_color-2);
     color: var(--lc-text-color-1);
     width: 100%;
     height: 100%;
 }
-#navlink, .navlink {
+.navlink {
     color: black;
 }
-#navbarre, .navbarre {
+.navbarre {
     background-color: white;
     color: var(--lc-bg_color-1);
 }
 
 /* border */
-#b-transparent, .b-transparent {
+.b-transparent {
     border: transparent;
 }
-#b-primary, .b-primary {
+.b-primary {
     border: 1px solid var(--lc-primary);
 }
-#b-secondary, .b-secondary {
+.b-secondary {
     border: 1px solid var(--lc-secondary);
 }
-#b-success, .b-success {
+.b-success {
     border: 1px solid var(--lc-success);
 }
-#b-info, .b-info {
+.b-info {
     border: 1px solid var(--lc-info);
 }
-#b-warning, .b-warning {
+.b-warning {
     border: 1px solid var(--lc-warning);
 }
-#b-danger, .b-danger {
+.b-danger {
     border: 1px solid var(--lc-danger);
 }
-#b-light, .b-light {
+.b-light {
     border: 1px solid var(--lc-light);
 }
-#b-dark, .b-dark {
+.b-dark {
     border: 1px solid var(--lc-dark);
 }
 
 /* border radius */
-#b-r-transparent, .b-r-transparent {
+.b-r-transparent {
     border: transparent;
         border-radius: 5px;
 }
-#b-r-primary, .b-r-primary {
+.b-r-primary {
     border: 3px solid var(--lc-primary);
         border-radius: 5px;
 }
-#b-r-secondary, .b-r-secondary {
+.b-r-secondary {
     border: 3px solid var(--lc-secondary);
         border-radius: 5px;
 }
-#b-r-success, .b-r-success {
+.b-r-success {
     border: 3px solid var(--lc-success);
         border-radius: 5px;
 }
-#b-r-info, .b-r-info {
+.b-r-info {
     border: 3px solid var(--lc-info);
         border-radius: 5px;
 }
-#b-r-warning, .b-r-warning {
+.b-r-warning {
     border: 3px solid var(--lc-warning);
         border-radius: 5px;
 }
-#b-r-danger, .b-r-danger {
+.b-r-danger {
     border: 3px solid var(--lc-danger);
         border-radius: 5px;
 }
-#b-r-light, .b-r-light {
+.b-r-light {
     border: 3px solid var(--lc-light);
         border-radius: 5px;
 }
-#b-r-dark, .b-r-dark {
+.b-r-dark {
     border: 3px solid var(--lc-dark);
         border-radius: 5px;
 }
 
 /* card */
-#card, .card {
+.card {
     background-color: white;
     color: black;
     width: 144px;
     height: auto;
 }
-#card-primary, .card-primary {
+.card-primary {
     background-color: var(--lc-primary);
     color: white;
     width: 144px;
     height: auto;
 }
-#card-secondary, .card-secondary {
+.card-secondary {
     background-color: var(--lc-secondary);
     color: white;
     width: 144px;
     height: auto;
 }
-#card-success, .card-success {
+.card-success {
     background-color: var(--lc-success);
     color: white;
     width: 144px;
     height: auto;
 }
-#card-info, .card-info {
+.card-info {
     background-color: var(--lc-info);
     color: white;
     width: 144px;
     height: auto;
 }
-#card-warning, .card-warning {
+.card-warning {
     background-color: var(--lc-warning);
     color: white;
     width: 144px;
     height: auto;
 }
-#card-danger, .card-danger {
+.card-danger {
     background-color: var(--lc-danger);
     color: white;
     width: 144px;
     height: auto;
 }
-#card-light, .card-light {
+.card-light {
     background-color: var(--lc-light);
     color: white;
     width: 144px;
@@ -503,56 +500,55 @@ nav {
 }
 
 /* card-fluid */
-#card-fluid, .card-fluid {
+.card-fluid {
     background-color: white;
     color: black;
     width: 100%;
     height: auto;
 }
-#card-fluid-primary, .card-fluid-primary {
+.card-fluid-primary {
     background-color: var(--lc-primary);
     color: white;
     width: 100%;
     height: auto;
 }
-#card-fluid-secondary, .card-fluid-secondary {
+.card-fluid-secondary {
     background-color: var(--lc-secondary);
     color: white;
     width: 100%;
     height: auto;
 }
-#card-fluid-success, .card-fluid-success {
+.card-fluid-success {
     background-color: var(--lc-success);
     color: white;
     width: 100%;
     height: auto;
 }
-#card-fluid-info, .card-fluid-info {
+.card-fluid-info {
     background-color: var(--lc-info);
     color: white;
     width: 100%;
     height: auto;
 }
-#card-fluid-warning, .card-fluid-warning {
+.card-fluid-warning {
     background-color: var(--lc-warning);
     color: white;
     width: 100%;
     height: auto;
 }
-#card-fluid-danger, .card-fluid-danger {
+.card-fluid-danger {
     background-color: var(--lc-danger);
     color: white;
     width: 100%;
     height: auto;
 }
-#card-fluid-light, .card-fluid-light {
+.card-fluid-light {
     background-color: var(--lc-light);
     color: white;
     width: 100%;
     height: auto;
 }
-
-#card-fluid-transparent, .card-fluid-transparent {
+.card-fluid-transparent {
     background-color: transparent;
     color: black;
     width: 100%;
@@ -560,7 +556,7 @@ nav {
 }
 
 /* card-container */
-#card-container, .card-container {
+.card-container {
     background-color: white;
     color: black;
     width: 0 auto;
@@ -569,7 +565,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
-#card-container-primary, .card-container-primary {
+.card-container-primary {
     background-color: var(--lc-primary);
     color: white;
     width: 0 auto;
@@ -578,7 +574,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
-#card-container-secondary, .card-container-secondary {
+.card-container-secondary {
     background-color: var(--lc-secondary);
     color: white;
     width: 0 auto;
@@ -587,7 +583,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
-#card-container-success, .card-container-success {
+.card-container-success {
     background-color: var(--lc-success);
     color: white;
     width: 0 auto;
@@ -596,7 +592,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
-#card-container-info, .card-container-info {
+.card-container-info {
     background-color: var(--lc-info);
     color: white;
     width: 0 auto;
@@ -605,7 +601,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
-#card-container-warning, .card-container-warning {
+.card-container-warning {
     background-color: var(--lc-warning);
     color: white;
     width: 0 auto;
@@ -614,7 +610,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
-#card-container-danger, .card-container-danger {
+.card-container-danger {
     background-color: var(--lc-danger);
     color: white;
     width: 0 auto;
@@ -623,7 +619,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
-#card-container-light, .card-container-light {
+.card-container-light {
     background-color: var(--lc-light);
     color: white;
     width: 0 auto;
@@ -633,27 +629,14 @@ nav {
     justify-content: center;
 }
 
-/* slide */
-#slide, .slide, #slide-fluid, .slide-fluid {
-    width: 100% !important;
-    height: auto !important;
-}
-#slide-container, .slide-container {
-    width: 0 auto !important;
-    height: auto !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-}
-
 /* parallax */
-#parallax-window, .parallax-window {
+.parallax-window {
     background: transparent;
     min-height: 400px;
     border: transparent;
         border-radius: 10px;
 }
-#parallax-window_error, .parallax-window_error {
+.parallax-window_error {
     background: transparent;
         background-size: cover;
         background-repeat: no-repeat;
@@ -661,7 +644,7 @@ nav {
     border: transparent;
         border-radius: 10px;
 }
-#parallax-window_header, .parallax-window_header {
+.parallax-window_header {
     background: transparent;
     min-height: 1920px;
     border: transparent;
@@ -669,14 +652,14 @@ nav {
 }
 
 /* button */
-#button, .button, #btn, .btn {
+.button, .btn {
     width: 144px !important;
     height: 55px !important;
     border: transparent;
         border-radius: 5px;
     text-align: center;
 }
-#btn-active, .btn-active {
+.btn-active {
     background-color: var(--lc-primary) !important;
     color: var(--lc-light) !important;
     width: auto;
@@ -685,7 +668,7 @@ nav {
         border-radius: 5px;
     text-align: center;
 }
-#btn-nav, .btn-nav {
+.btn-nav {
     background: var(--lc-bg_color-2);
     color: var(--lc-text-color-2);
     border: transparent;
@@ -694,220 +677,220 @@ nav {
     width: auto;
     height: auto;
 }
-#btn-fluid, .btn-fluid {
+.btn-fluid {
     width: 100%;
     height: auto;
 }
-#btn-primary, .btn-primary {
+.btn-primary {
     background-color: var(--lc-primary);
     color: white;
 }
-#btn-secondary, .btn-secondary {
+.btn-secondary {
     background-color: var(--lc-secondary);
     color: white;
 }
-#btn-success, .btn-success {
+.btn-success {
     background-color: var(--lc-success);
     color: white;
 }
-#btn-info, .btn-info {
+.btn-info {
     background-color: var(--lc-info);
     color: white;
 }
-#btn-warning, .btn-warning {
+.btn-warning {
     background-color: var(--lc-warning);
     color: white;
 }
-#btn-danger, .btn-danger {
+.btn-danger {
     background-color: var(--lc-danger);
     color: white;
 }
-#btn-light, .btn-light {
+.btn-light {
     background-color: var(--lc-light);
     color: var(--lc-dark);
 }
-#btn-dark, .btn-dark {
+.btn-dark {
     background-color: var(--lc-dark);
     color: var(--lc-light);
 }
-#btn-right, .btn-right {
+.btn-right {
     float: inline-end;
 }
 
 /* background */
-#bg-blue, .bg-blue {
+.bg-blue {
     background-color: blue;
 }
-#bg-red, .bg-red {
+.bg-red {
     background-color: red;
 }
-#bg-brown, .bg-brown {
+.bg-brown {
     background-color: brown;
 }
-#bg-yellow, .bg-yellow {
+.bg-yellow {
     background-color: yellow;
 }
-#bg-green, .bg-green {
+.bg-green {
     background-color: green;
 }
-#bg-cyan, .bg-cyan {
+.bg-cyan {
     background-color: cyan;
 }
-#bg-magenta, .bg-magenta {
+.bg-magenta {
     background-color: magenta;
 }
-#bg-beige, .bg-beige {
+.bg-beige {
     background-color: beige;
 }
-#bg-violet, .bg-violet {
+.bg-violet {
     background-color: violet;
 }
-#bg-gold, .bg-gold {
+.bg-gold {
     background-color: gold;
 }
-#bg-silver, .bg-silver {
+.bg-silver {
     background-color: silver;
 }
 
-#bg-one-color, .bg-one-color {
+.bg-one-color {
     background-color: var(--lc-bg_color-1);
     margin: 5px;
     padding: 5px;
 }
-#bg-two-color, .bg-two-color {
+.bg-two-color {
     background-color: var(--lc-bg_color-2);
     margin: 5px;
     padding: 5px;
 }
-#bg-three-color, .bg-three-color {
+.bg-three-color {
     background-color: var(--lc-bg_color-3);
     margin: 5px;
     padding: 5px;
 }
-#bg-four-color, .bg-four-color {
+.bg-four-color {
     background-color: var(--lc-bg_color-4);
     margin: 5px;
     padding: 5px;
 }
-#bg-five-color, .bg-five-color {
+.bg-five-color {
     background-color: var(--lc-bg_color-5);
     margin: 5px;
     padding: 5px;
 }
-#bg-six-color, .bg-six-color {
+.bg-six-color {
     background-color: var(--lc-bg_color-6);
     margin: 5px;
     padding: 5px;
 }
-#bg-seven-color, .bg-seven-color {
+.bg-seven-color {
     background-color: var(--lc-bg_color-7);
     margin: 5px;
     padding: 5px;
 }
 
     /* Background size */
-    #bg-size, .bg-size {
+    .bg-size {
         width: 100%;
         height: auto;
         margin: 5px;
         padding: 5xp;
     }
-    #bg-size-100, .bg-size-100 {
+    .bg-size-100 {
         width: 100%;
         height: 100%;
     }
-    #bg-size-auto, .bg-size-auto {
+    .bg-size-auto {
         width: auto;
         height: auto;
     }
 
 /* text */
-#text-blue, .text-blue {
+.text-blue {
     color: blue;
 }
-#text-red, .text-red {
+.text-red {
     color: red;
 }
-#text-brown, .text-brown {
+.text-brown {
     color: brown;
 }
-#text-yellow, .text-yellow {
+.text-yellow {
     color: yellow;
 }
-#text-green, .text-green {
+.text-green {
     color: green;
 }
-#text-cyan, .text-cyan {
+.text-cyan {
     color: cyan;
 }
-#text-magenta, .text-magenta {
+.text-magenta {
     color: magenta;
 }
-#text-beige, .text-beige {
+.text-beige {
     color: beige;
 }
-#text-violet, .text-violet {
+.text-violet {
     color: violet;
 }
-#text-gold, .text-gold {
+.text-gold {
     color: gold;
 }
-#text-silver, .text-silver {
+.text-silver {
     color: silver;
 }
 
-#text-1, .text-1 {
+.text-1 {
     background-color: var(--lc-bg_color-1);
 }
-#text-2, .text-2 {
+.text-2 {
     background-color: var(--lc-bg_color-2);
 }
-#text-3, .text-3 {
+.text-3 {
     background-color: var(--lc-bg_color-3);
 }
-#text-4, .text-4 {
+.text-4 {
     background-color: var(--lc-bg_color-4);
 }
-#text-5, .text-5 {
+.text-5 {
     background-color: var(--lc-bg_color-5);
 }
-#text-6, .text-6 {
+.text-6 {
     background-color: var(--lc-bg_color-4);
 }
-#text-7, .text-7 {
+.text-7 {
     background-color: var(--lc-bg_color-4);
 }
 
-#text-active, .text-active {
+.text-active {
     background: transparent;
     color: var(--lc-light);
     font: var(--lc-font-bold);
 }
-#text-active-botom, .text-active-botom {
+.text-active-botom {
     background: transparent;
     color: var(--lc-text-color-1);
     font: var(--lc-font-bold);
     border-bottom: var(--lc-text-color-1);
 }
-#text-active-botom, .text-active-botom {
+.text-active-botom {
     background: transparent;
     color: var(--lc-text-color-1);
     font: var(--lc-font-bold);
     border-bottom: var(--lc-text-color-1);
 }
-#text-active-top, .text-active-top {
+.text-active-top {
     background: transparent;
     color: var(--lc-text-color-1);
     font: var(--lc-font-bold);
     border-top: var(--lc-text-color-1);
 }
-#text-active-right, .text-active-right {
+.text-active-right {
     background: transparent;
     color: var(--lc-text-color-1);
     font: var(--lc-font-bold);
     border-right: var(--lc-text-color-1);
 }
-#text-active-left, .text-active-left {
+.text-active-left {
     background: transparent;
     color: var(--lc-text-color-1);
     font: var(--lc-font-bold);
@@ -915,63 +898,63 @@ nav {
 }
 
 /* mode */
-    #dark-mode, .dark-mode {
+    .dark-mode {
         background-color: black;
         color: white;
     }
-    #light-mode, .light-mode {
+    .light-mode {
         background-color: white;
         color: black;
     }
-    #gray-mode, .gray-mode {
+    .gray-mode {
         background-color: gray;
         color: black;
     }
-    #blue-mode, .blue-mode {
+    .blue-mode {
         background-color: blue;
         color: white;
     }
-    #red-mode, .red-mode {
+    .red-mode {
         background-color: red;
         color: white;
     }
-    #brown-mode, .brown-mode {
+    .brown-mode {
         background-color: brown;
         color: white;
     }
-    #yellow-mode, .yellow-mode {
+    .yellow-mode {
         background-color: yellow;
         color: black;
     }
-    #green-mode, .green-mode {
+    .green-mode {
         background-color: green;
         color: black;
     }
-    #cyan-mode, .cyan-mode {
+    .cyan-mode {
         background-color: cyan;
         color: black;
     }
-    #magenta-mode, .magenta-mode {
+    .magenta-mode {
         background-color: magenta;
         color: black;
     }
-    #beige-mode, .beige-mode {
+    .beige-mode {
         background-color: beige;
         color: black;
     }
-    #violet-mode, .violet-mode {
+    .violet-mode {
         background-color: violet;
         color: black;
     }
-    #gold-mode, .gold-mode {
+    .gold-mode {
         background-color: gold;
         color: black;
     }
-    #silver-mode, .silver-mode {
+    .silver-mode {
         background-color: silver;
         color: black;
     }
-    #button-mode, .button-mode {
+    .button-mode {
         background: var(--lc-bg_color-2);
         color: var(--lc-text-color-2);
         width: 100px;
@@ -981,19 +964,19 @@ nav {
     }
 
 /* marges */
-#marges, .marges {
+.marges {
     margin: auto;
     padding: auto;
 }
-#marges-5, .marges-5 {
+.marges-5 {
     margin: 5px;
     padding: 5px;
 }
-#marges-10, .marges-10 {
+.marges-10 {
     margin: 10px;
     padding: 10px;
 }
-#marges-15, .marges-15 {
+.marges-15 {
     margin: 15px;
     padding: 15px;
 }
@@ -1013,13 +996,13 @@ table, tr, td {
     height: auto;
 }
 
-#table, .table {
+.table {
     background: var(--lc-bg_color-1);
     color: var(--lc-text-color-1);
     width: 100%;
     height: auto;
 }
-#tr, .tr, #td, .td {
+.tr, .td {
     background: var(--lc-bg_color-1);
     color: var(--lc-text-color-1);
     width: auto;

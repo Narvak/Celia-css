@@ -1,4 +1,4 @@
-    /* Slideshow container */
+/* Slideshow container */
 .slide-show-container {
     background-color: #3a4a5a;
     color: black;
@@ -15,6 +15,22 @@
 .slides {
     width: 100%;
     height: auto;
+    animation-name: to;
+    animation-duration: 1.5s;
+}
+/* slide */
+.slide, .slide-fluid {
+    width: 100% !important;
+    height: auto !important;
+    animation-name: to;
+    animation-duration: 1.5s;
+}
+.slide-container {
+    width: 0 auto !important;
+    height: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     animation-name: to;
     animation-duration: 1.5s;
 }

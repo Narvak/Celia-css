@@ -10,7 +10,8 @@
 ## Version
 ### V 0.8.5
 
-## Le carrousel (slide) est à terminé.
+## A terminé.
+### Le carrousel (slide)
 
 ## A ajouté / amelioré
 ### Renplacé background par background-color
