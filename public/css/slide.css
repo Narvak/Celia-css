@@ -1,29 +1,35 @@
     /* Slideshow container */
 .slide-show-container {
+    background-color: #3a4a5a;
+    color: black;
     width: 100%;
     height: auto;
     margin: auto;
+    align-items: center;
+    text-align: center;
     position: relative;
     align-items: center;
     flex-direction: column;
-
 }
     /* Hide the images by default */
 .slides {
-    display: none;
-    animation-name: fade;
+    width: 100%;
+    height: auto;
+    animation-name: to;
     animation-duration: 1.5s;
 }
     /* Next & previous buttons */
 .prev, .next {
     background-color: #5a6a7a;
     color: black;
-    width: auto;
-    height: auto;
+    width: 34px;
+    height: 34px;
     /*margin-top: -22px;*/
-    margin: 10px;
-    padding: 16px;
-    border-radius: 0 3px 3px 0;
+    margin: auto;
+    /*padding: auto;*/
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+    align-items: center;
     position: absolute;
     top: 50%;
     cursor: pointer;
@@ -33,10 +39,19 @@
     user-select: none;
     flex-direction: row;
 }
+
+.prev-span, .next-span {
+    width: 21px;
+    height: 8px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    align-items: center;
+}
     /* Position the "next button" to the right */
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    /*border-radius: 3px 0 0 3px;*/
 }
     /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -65,18 +80,38 @@
     top: 0;
 }
     /* The dots/bullets/indicators */
-.dot {
+.circle-dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
+    width: 13px;
+    height: 13px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #7a8a9a;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
-    background-color: #717171;
+
+.square-dot {
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #7a8a9a;
+    display: inline-block;
+}
+.rectangle-dot {
+    cursor: pointer;
+    width: 55px;
+    height: 13px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #7a8a9a;
+    display: inline-block;
+}
+
+.active-slide, .circle-dot:hover, .square-dot:hover, .rectangle-dot:hover {
+    background-color: #1a2a3a;
 }
     /* Fading animation */
 /*.fade {
@@ -85,9 +120,24 @@
 }*/
 @keyframes fade {
     from {
-        opacity: .4;
+        opacity: 0.4;
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes to {
+    0% {
+        background-image: url(media/images/);
+    }
+    33.33% {
+        background-image: url(media/images/);
+    }
+    66.67% {
+        background-image: url(media/images/);
+    }
+    100% {
+        background-image: url(media/images/);
     }
 }

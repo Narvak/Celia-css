@@ -55,9 +55,6 @@ function closeModal() {
       modal.style.display = "block";
       modal.style.flexDirection = "column";
 
-
-
-
   var close = document.getElementById('myModal')
       close.style.display = "none";
           console.log(close)

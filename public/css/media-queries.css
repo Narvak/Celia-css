@@ -109,11 +109,11 @@
   }
 
   .close-modal {
-    background-color: red;
-    color: black;
-    width: 15px;
-    height: 15px;
+    width: 34px;
+    height: 34px;
+    font-size: large;
     text-align: center;
+    align-items: center;
     border: transparent;
   }
   .nav-modal {
