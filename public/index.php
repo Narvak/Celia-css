@@ -19,18 +19,19 @@
         <!-- Favicon -->
 		    <link rel="icon" type="image/x-icon" href="media/svg/logo.svg"/>
             <!-- JavaScript -->
+                <!-- App -->
+                    <script src="javascript/js/app.js"></script>
+                <!-- javascript -->
+                    <script src="javascript/js/javascript.js"></script>
                 <!-- nav barre -->
                     <script src="javascript/other/navbarre_script.js"></script>
                 <!-- ColorMode -->
                     <script src="javascript/other/colorMode.js"></script>
-
-
-        <!-- Javascript -->
-            <script src="javascript/js/app.js"></script>
-            <script src="javascript/js/javascript.js"></script>
+                <!-- Slide -->
+                    <script src="javascript/js/slide.js"></script>
 
         <!-- Title -->
-		    <title>Celia-css || Index PHP</title>
+		    <title>Celia-css || Index HTML</title>
 	</head>
 	<body>
 
@@ -67,7 +68,6 @@
                 </a>
             </div>
 
-            
                 <button class="burger" id="myBtn" onclick="toggleSplitburger(this)">
                     <span class="spanBurger" id="myBtn">        </span>
                     <span class="spanBurger" id="myBtn">        </span>
@@ -76,36 +76,37 @@
 
                 <div class="modal-menu" id="myModal" hidden>
                     <div>
-                        <button class="close-modal" id="close" onclick="closeModal(this)">
-                            &times;
+                        <button class="close-modal button btn-danger marges-5" id="close" onclick="closeModal(this)">
+                            <p class="marges-center">
+                                &times; <br />
+                                close menu
+                            </p>
                         </button>
                     </div>
                     <div class="nav-modal">
                         <div class="nav-modal">
                             <a href="#">
-                                <button class="button btn-active text-active">
+                                <button class="button btn-active text-active marges-5">
                                     Home
                                 </button>
                             </a>
                             <a href="#">
-                                <button class="btn-nav button">
+                                <button class="btn-nav button marges-5">
                                     Service
                                 </button>
                             </a>
                             <a href="#">
-                                <button class="btn-nav button">
+                                <button class="btn-nav button marges-5">
                                     Contact
                                 </button>
                             </a>
-                    
                             <a href="#">
-                                <button class="btn-nav button">
+                                <button class="btn-nav button marges-5">
                                     About &rarr;
                                 </button>
                             </a>
                         </div>
                     </div>
-
                 </div>
 
         </nav>
@@ -132,6 +133,30 @@
                 voluptatum placeat adipisci quidem ducimus consequatur voluptatem, <br />
                 fugit earum deserunt deleniti cumque aliquam non repudiandae vero. <br />
             </p>
+        </div>
+
+
+        <div class="slide-show-container">
+            <div>
+                <div class="slides">
+                    <img src="media/images/" alt="1er image" id="">
+                    <img src="media/images/" alt="2em image" id="">
+                    <img src="media/images/" alt="3em image" id="">
+                </div>
+                <div>
+                    <div class="next" onclick="(this)">
+                        <span class="next-span">&rarr;</span>
+                    </div>
+                    <div class="prev" onclick="(this)">
+                        <span class="prev-span">&larr;</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span class="circle-dot" onclick="(this)"></span>
+                <span class="square-dot" onclick="(this)"></span>
+                <span class="rectangle-dot" onclick="(this)"></span>
+            </div>
         </div>
 
         <div class="container">

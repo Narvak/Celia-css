@@ -20,9 +20,9 @@
 #### aside (à developpé)
 #### aside-left, aside-right
 #### input (à developpé)
-#### [input => :hover, input => :focus]
+##### [input => :hover, input => :focus]
 #### float
-#### [left, right]
+##### [left, right]
 
 ## Date de création
 ### 15/05/2022
