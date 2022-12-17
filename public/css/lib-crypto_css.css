@@ -1008,3 +1008,20 @@ table, tr, td {
     width: auto;
     height: auto;
 }
+
+/* imput */
+.form {
+    width: 89%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+}
+.input {
+    width: 34%;
+    height: auto;
+    border: transparent;
+    border-radius: 5px;
+    flex-direction: column;
+}
