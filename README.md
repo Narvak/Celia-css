@@ -10,15 +10,17 @@
 ## Version
 ### V 0.8.5
 
+## Le carrousel (slide) est à terminé.
+
 ## A ajouté / amelioré
-#### Renplacé background par background-color
-#### class et id :
+### Renplacé background par background-color
+### class et id :
 #### button :hover (à developpé)
-#### [ .btn-hover-rs ]
+##### [ .btn-hover-rs ]
 #### rs = reseau sociaux
 #### main
 #### aside (à developpé)
-#### aside-left, aside-right
+##### aside-left, aside-right
 #### input (à developpé)
 ##### [input => :hover, input => :focus]
 #### float
