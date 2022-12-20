@@ -8,22 +8,17 @@
 ### Celia-css
 
 ## Version
-### V 0.8.5
+### V 0.8.6
 
 ## A terminé.
 ### Le carrousel (slide)
 
 ## A ajouté / amelioré
-### Renplacé background par background-color
+#### Renplacé background par background-color
 ### class et id :
 #### button :hover (à developpé)
 ##### [ .btn-hover-rs ]
 #### rs = reseau sociaux
-#### main
-#### aside (à developpé)
-##### aside-left, aside-right
-#### input (à developpé)
-##### [input => :hover, input => :focus]
 #### float
 ##### [left, right]
 
@@ -41,3 +36,8 @@
 
 ## Le plus de la librairie
     https://github.com/Narvak/Celia-ui-css
+
+Bonjour @ ,
+Je te souhaite la bienvenue sur ce serveur.
+Pour l'instant nous sommes que deux sûr le serveur et je n'ai pas encore vu le PHP en cours.
+Mais ça serait avec plaisir que je pourrais t'aider en JS (react et en JS) ou sur le design.

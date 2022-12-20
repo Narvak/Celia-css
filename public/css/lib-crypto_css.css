@@ -88,6 +88,28 @@ aside {
     height: auto;
 }
 
+/* aside */
+.aside {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-text-color-1);
+    width: 100%;
+    height: auto;
+}
+.aside-left {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-text-color-1);
+    width: 233px;
+    height: auto;
+    float: inline-start;
+}
+.aside-right {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-text-color-1);
+    width: 233px;
+    height: auto;
+    float: inline-end;
+}
+
 /* id et class */
 .body, .html {
     background: white;
@@ -996,7 +1018,18 @@ tr, td, .tr, .td {
         border-radius: 5px;
     flex-direction: column;
 }
+.input:hover{
+    width: 55%;
+    border: transparent;
+}
+.input:focus {
+    background-color: var(--lc-primary);
+    color: var(--lc-light);
+    border: transparent;
+}
 .send {
+    width: auto;
+    height: auto;
     margin: auto;
     text-align: center;
     align-items: center;
@@ -1010,4 +1043,13 @@ tr, td, .tr, .td {
     border: transparent;
         border-radius: 5px;
     flex-direction: column;
+}
+.textarea:hover{
+    width: 55%;
+    border: transparent;
+}
+.textarea:focus {
+    background-color: var(--lc-primary);
+    color: var(--lc-light);
+    border: transparent;
 }
