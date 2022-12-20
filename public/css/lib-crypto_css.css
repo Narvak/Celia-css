@@ -128,12 +128,6 @@ aside {
     width: 100%;
     height: auto;
 }
-.paralax {
-    background: var(--lc-bg_color-1);
-    color: var(--lc-text-color-1);
-    width: 0 auto;
-    height: auto;
-}
 .conteneur {
     background: var(--lc-bg_color-1);
     color: var(--lc-text-color-1);
@@ -181,35 +175,35 @@ aside {
     width: 144px;
     height: 144px;
     border: transparent;
-    border-radius: 15px;
+        border-radius: 15px;
 }
 .img-circle {
     background-color: white;
     width: 144px;
     height: 144px;
     border: transparent;
-    border-radius: 100%;
+        border-radius: 100%;
 }
 .img-square-h {
     background-color: white;
     width: 144px;
     height: 233px;
     border: transparent;
-    border-radius: 15px;
+        border-radius: 15px;
 }
 .img-square-l {
     background-color: white;
     width: 233px;
     height: 144px;
     border: transparent;
-    border-radius: 15px;
+        border-radius: 15px;
 }
 .img-fluid {
     background-color: white;
     width: 100%;
     height: auto;
     border: transparent;
-    border-radius: 15px;
+        border-radius: 15px;
 }
 
 /* box-shadow */
@@ -278,37 +272,37 @@ aside {
 
 /* height */
 .h-13 {
-    width: 13px;
+    height: 13px;
 }
 .h-21 {
-    width: 21px;
+    height: 21px;
 }
 .h-34 {
-    width: 34px;
+    height: 34px;
 }
 .h-55 {
-    width: 55px;
+    height: 55px;
 }
 .h-89 {
-    width: 89px;
+    height: 89px;
 }
 .h-144 {
-    width: 144px;
+    height: 144px;
 }
 .h-233 {
-    width: 233px;
+    height: 233px;
 }
 .h-377 {
-    width: 377px;
+    height: 377px;
 }
 .h-610 {
-    width: 610px;
+    height: 610px;
 }
 .h-987 {
-    width: 987px;
+    height: 987px;
 }
 .h-1597 {
-    width: 1597px;
+    height: 1597px;
 }
 
 /* flex */
@@ -494,7 +488,7 @@ nav {
 }
 .card-light {
     background-color: var(--lc-light);
-    color: white;
+    color: var(--lc-text-color-1);
     width: 144px;
     height: auto;
 }
@@ -629,28 +623,6 @@ nav {
     justify-content: center;
 }
 
-/* parallax */
-.parallax-window {
-    background: transparent;
-    min-height: 400px;
-    border: transparent;
-        border-radius: 10px;
-}
-.parallax-window_error {
-    background: transparent;
-        background-size: cover;
-        background-repeat: no-repeat;
-    min-height: 895px;
-    border: transparent;
-        border-radius: 10px;
-}
-.parallax-window_header {
-    background: transparent;
-    min-height: 1920px;
-    border: transparent;
-        border-radius: 10px;
-}
-
 /* button */
 .button, .btn {
     width: 144px !important;
@@ -680,41 +652,52 @@ nav {
 .btn-fluid {
     width: 100%;
     height: auto;
+    text-align: center;
+    border: transparent;
 }
 .btn-primary {
     background-color: var(--lc-primary);
     color: white;
+    border: transparent;
 }
 .btn-secondary {
     background-color: var(--lc-secondary);
     color: white;
+    border: transparent;
 }
 .btn-success {
     background-color: var(--lc-success);
     color: white;
+    border: transparent;
 }
 .btn-info {
     background-color: var(--lc-info);
     color: white;
+    border: transparent;
 }
 .btn-warning {
     background-color: var(--lc-warning);
     color: white;
+    border: transparent;
 }
 .btn-danger {
     background-color: var(--lc-danger);
     color: white;
+    border: transparent;
 }
 .btn-light {
     background-color: var(--lc-light);
     color: var(--lc-dark);
+    border: transparent;
 }
 .btn-dark {
     background-color: var(--lc-dark);
     color: var(--lc-light);
+    border: transparent;
 }
 .btn-right {
     float: inline-end;
+    border: transparent;
 }
 
 /* background */
@@ -840,25 +823,25 @@ nav {
 }
 
 .text-1 {
-    background-color: var(--lc-bg_color-1);
+    color: var(--lc-bg_color-1);
 }
 .text-2 {
-    background-color: var(--lc-bg_color-2);
+    color: var(--lc-bg_color-2);
 }
 .text-3 {
-    background-color: var(--lc-bg_color-3);
+    color: var(--lc-bg_color-3);
 }
 .text-4 {
-    background-color: var(--lc-bg_color-4);
+    color: var(--lc-bg_color-4);
 }
 .text-5 {
-    background-color: var(--lc-bg_color-5);
+    color: var(--lc-bg_color-5);
 }
 .text-6 {
-    background-color: var(--lc-bg_color-4);
+    color: var(--lc-bg_color-4);
 }
 .text-7 {
-    background-color: var(--lc-bg_color-4);
+    color: var(--lc-bg_color-4);
 }
 
 .text-active {
@@ -870,31 +853,25 @@ nav {
     background: transparent;
     color: var(--lc-text-color-1);
     font: var(--lc-font-bold);
-    border-bottom: var(--lc-text-color-1);
-}
-.text-active-botom {
-    background: transparent;
-    color: var(--lc-text-color-1);
-    font: var(--lc-font-bold);
-    border-bottom: var(--lc-text-color-1);
+    border-bottom: 3px var(--lc-text-color-1) solid;
 }
 .text-active-top {
     background: transparent;
     color: var(--lc-text-color-1);
     font: var(--lc-font-bold);
-    border-top: var(--lc-text-color-1);
+    border-top: 3px var(--lc-text-color-1) solid;
 }
 .text-active-right {
     background: transparent;
     color: var(--lc-text-color-1);
     font: var(--lc-font-bold);
-    border-right: var(--lc-text-color-1);
+    border-right: 3px var(--lc-text-color-1) solid;
 }
 .text-active-left {
     background: transparent;
     color: var(--lc-text-color-1);
     font: var(--lc-font-bold);
-    border-left: var(--lc-text-color-1);
+    border-left: 3px var(--lc-text-color-1) solid;
 }
 
 /* mode */
@@ -988,25 +965,19 @@ nav {
 }
 
 /* table */
-table, tr, td {
+table, .table {
     background: white;
     color: var(--lc-black-rgb);
-    border: var(--lc-black-rgb);
     width: 100%;
     height: auto;
+    border: 1px var(--lc-black-rgb) solid;
 }
-
-.table {
-    background: var(--lc-bg_color-1);
-    color: var(--lc-text-color-1);
-    width: 100%;
-    height: auto;
-}
-.tr, .td {
-    background: var(--lc-bg_color-1);
-    color: var(--lc-text-color-1);
+tr, td, .tr, .td {
+    background: white;
+    color: var(--lc-black-rgb);
     width: auto;
     height: auto;
+    border: 1px var(--lc-black-rgb) solid;
 }
 
 /* imput */
@@ -1022,6 +993,21 @@ table, tr, td {
     width: 34%;
     height: auto;
     border: transparent;
-    border-radius: 5px;
+        border-radius: 5px;
+    flex-direction: column;
+}
+.send {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.textarea {
+    width: 34%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border: transparent;
+        border-radius: 5px;
     flex-direction: column;
 }

@@ -31,7 +31,7 @@
                     <script src="javascript/js/slide.js"></script>
 
         <!-- Title -->
-		    <title>Celia-css || Index HTML</title>
+		    <title>Celia-css || Index PHP</title>
 	</head>
 	<body>
 
@@ -139,7 +139,7 @@
         <div class="slide-show-container">
             <div>
                 <div class="slides">
-                    <img src="media/images/" alt="1er image" id="">
+                    <img src="media/images/" alt="1er image" id="img">
                     <img src="media/images/" alt="2em image" id="">
                     <img src="media/images/" alt="3em image" id="">
                 </div>
@@ -197,12 +197,31 @@
         </div>
 
         <div class="contact marges">
-            <!-- CONTACT -->
-                <p class="marges-5">
-                    Tel.: <br />
-                    Mail.: <br />
-                    Adresse.: <br />
-                </p>
+            <div class="">
+                <!-- CONTACT -->
+                    <p class="marges-5">
+                        Tel.: <br />
+                        Mail.: <br />
+                        Adresse.: <br />
+                    </p>
+            </div>
+            <div>
+                <form class="form bg-five-color">
+                    <input type="text" placeholder="1er input" class="input bg-seven-color">
+                    <input type="text" placeholder="2em input" class="input bg-seven-color">
+                    <input type="text" placeholder="3em input" class="input bg-seven-color">
+                    <input type="text" placeholder="4em input" class="input bg-seven-color">
+                    <input type="text" placeholder="5em input" class="input bg-seven-color">
+                    <input type="text" placeholder="6em input" class="input bg-seven-color">
+                    <input type="text" placeholder="7em input" class="input bg-seven-color">
+                    <input type="text" placeholder="8em input" class="input bg-seven-color">
+                    <textarea name="" id=""  placeholder="Message" class="textarea bg-seven-color"></textarea>
+                        <div class="send">
+                            <input type="submit" value="Envoyer" class="button send">
+                        </div>
+                </form>
+            </div>
+
         </div>
 
 	<footer class="flex-center marges flex">
