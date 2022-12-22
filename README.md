@@ -8,7 +8,7 @@
 ### Celia-css
 
 ## Version
-### V 0.8.6
+### V 0.8.7
 
 ## A terminé.
 ### Le carrousel (slide)
