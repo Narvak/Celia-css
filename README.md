@@ -36,8 +36,3 @@
 
 ## Le plus de la librairie
     https://github.com/Narvak/Celia-ui-css
-
-Bonjour @ ,
-Je te souhaite la bienvenue sur ce serveur.
-Pour l'instant nous sommes que deux sûr le serveur et je n'ai pas encore vu le PHP en cours.
-Mais ça serait avec plaisir que je pourrais t'aider en JS (react et en JS) ou sur le design.
