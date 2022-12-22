@@ -50,18 +50,18 @@
                         Home
                     </button>
                 </a>
-                <a href="#">
+                <a href="exemple.html">
                     <button class="btn-nav button">
                         Service
                     </button>
                 </a>
-                <a href="#">
+                <a href="exemple.html">
                     <button class="btn-nav button">
                         Contact
                     </button>
                 </a>
         
-                <a href="#">
+                <a href="exemple.html">
                     <button class="btn-nav button">
                         About &rarr;
                     </button>
@@ -85,22 +85,22 @@
                     </div>
                     <div class="nav-modal">
                         <div class="nav-modal">
-                            <a href="#">
+                            <a href="exemple.html">
                                 <button class="button btn-active text-active marges-5">
                                     Home
                                 </button>
                             </a>
-                            <a href="#">
+                            <a href="exemple.html">
                                 <button class="btn-nav button marges-5">
                                     Service
                                 </button>
                             </a>
-                            <a href="#">
+                            <a href="exemple.html">
                                 <button class="btn-nav button marges-5">
                                     Contact
                                 </button>
                             </a>
-                            <a href="#">
+                            <a href="exemple.html">
                                 <button class="btn-nav button marges-5">
                                     About &rarr;
                                 </button>
@@ -221,7 +221,6 @@
                         </div>
                 </form>
             </div>
-
         </div>
 
 	<footer class="flex-center marges flex">

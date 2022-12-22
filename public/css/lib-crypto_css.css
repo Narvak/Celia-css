@@ -1018,15 +1018,7 @@ tr, td, .tr, .td {
         border-radius: 5px;
     flex-direction: column;
 }
-.input:hover{
-    width: 55%;
-    border: transparent;
-}
-.input:focus {
-    background-color: var(--lc-primary);
-    color: var(--lc-light);
-    border: transparent;
-}
+
 .send {
     width: auto;
     height: auto;
@@ -1043,13 +1035,4 @@ tr, td, .tr, .td {
     border: transparent;
         border-radius: 5px;
     flex-direction: column;
-}
-.textarea:hover{
-    width: 55%;
-    border: transparent;
-}
-.textarea:focus {
-    background-color: var(--lc-primary);
-    color: var(--lc-light);
-    border: transparent;
 }
