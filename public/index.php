@@ -21,6 +21,8 @@
             <!-- JavaScript -->
                 <!-- App -->
                     <script src="javascript/js/app.js"></script>
+                <!-- Alert -->
+                    <script src="javascript/js/alert.js"></script>
                 <!-- javascript -->
                     <script src="javascript/js/javascript.js"></script>
                 <!-- nav barre -->
@@ -144,10 +146,10 @@
                     <img src="media/images/" alt="3em image" id="">
                 </div>
                 <div>
-                    <div class="next" onclick="(this)">
+                    <div class="next" onclick="nextDotAndImages(this)">
                         <span class="next-span">&rarr;</span>
                     </div>
-                    <div class="prev" onclick="(this)">
+                    <div class="prev" onclick="prevDotAndImages(this)">
                         <span class="prev-span">&larr;</span>
                     </div>
                 </div>
@@ -197,6 +199,7 @@
         </div>
 
         <div class="contact marges">
+            <h2 class="w-377 marges-center bg-cyan">Contact</h2>
             <div class="">
                 <!-- CONTACT -->
                     <p class="marges-5">

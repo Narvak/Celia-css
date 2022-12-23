@@ -14,8 +14,15 @@ function slide() {
     console.log(varSlide)
 }
 
+function prevDotAndImages() {
+    let firstImage = document.getElementById('');
+    let secondImage = document.getElementById('');
+    let thirdImage = document.getElementById('');
 
-
+    console.log(firstImage)
+    console.log(secondImage)
+    console.log(thirdImage)
+}
 
 function nextDotAndImages() {
     let firstImage = document.getElementById('');
@@ -28,4 +35,5 @@ function nextDotAndImages() {
 }
 
 console.log(slide)
+console.log(prevDotAndImages)
 console.log(nextDotAndImages)

@@ -1,7 +1,3 @@
-const celia = alert;
+const txt = "This is the main js file";
 
-if (celia == alert) {
-    alert("Bienvenue sur Celia-css.")
-} else (
-    alert("Bienvenue sur Celia-css.")
-)
+console.log(txt)
