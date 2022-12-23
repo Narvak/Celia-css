@@ -13,14 +13,15 @@
 ## A terminé.
 ### Le carrousel (slide)
 
-## A ajouté / amelioré
-#### Renplacé background par background-color
-### class et id :
-#### button :hover (à developpé)
-##### [ .btn-hover-rs ]
-#### rs = reseau sociaux
+## A ajouté
 #### float
 ##### [left, right]
+
+## A amelioré
+### Renplacé background par background-color
+#### button :hover (à developpé)
+##### [ .btn-hover-rs ]
+###### rs = reseau sociaux
 
 ## Date de création
 ### 15/05/2022
