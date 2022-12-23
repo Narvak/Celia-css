@@ -16,8 +16,8 @@
 
 ## A amelioré
 ### Renplacé background par background-color
-##### [ .btn-hover-rs ]
-###### rs = reseau sociaux
+#### [ .btn-hover-rs ]
+##### rs = reseau sociaux
 
 ## Date de création
 ### 15/05/2022
