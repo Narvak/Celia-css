@@ -66,7 +66,7 @@ p, h1, h2, h3, h4, h5, h6 {
     text-align : justify;
 }
 marquee {
-    background: var(--lc-red);
+    background: var(--lc-danger);
     color: var(--lc-warning);
 }
 header, footer {

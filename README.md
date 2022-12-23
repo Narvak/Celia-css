@@ -8,18 +8,14 @@
 ### Celia-css
 
 ## Version
-### V 0.8.7
-
-## A terminé.
-### Le carrousel (slide)
+### V 0.8.9
 
 ## A ajouté
-#### float
-##### [left, right]
+### float
+#### [left, right]
 
 ## A amelioré
 ### Renplacé background par background-color
-#### button :hover (à developpé)
 ##### [ .btn-hover-rs ]
 ###### rs = reseau sociaux
 

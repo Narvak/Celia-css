@@ -43,7 +43,8 @@
     /*margin-top: -22px;*/
     margin: auto;
     /*padding: auto;*/
-    border-radius: 3px 3px 3px 3px;
+    border: transparent;
+        border-radius: 3px 3px 3px 3px;
     text-align: center;
     align-items: center;
     position: absolute;

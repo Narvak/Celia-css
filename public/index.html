@@ -141,17 +141,16 @@
         <div class="slide-show-container">
             <div>
                 <div class="slides">
-                    <img src="media/images/" alt="1er image" id="img">
-                    <img src="media/images/" alt="2em image" id="">
-                    <img src="media/images/" alt="3em image" id="">
+                    <img src="media/images/" alt="image" id="slide">
+
                 </div>
                 <div>
-                    <div class="next" onclick="nextDotAndImages(this)">
+                    <button class="next" onclick="ChangeSlide(-1)">
                         <span class="next-span">&rarr;</span>
-                    </div>
-                    <div class="prev" onclick="prevDotAndImages(this)">
+                    </button>
+                    <button class="prev" onclick="ChangeSlide(1)">
                         <span class="prev-span">&larr;</span>
-                    </div>
+                    </button>
                 </div>
             </div>
             <div>
@@ -199,7 +198,7 @@
         </div>
 
         <div class="contact marges">
-            <h2 class="w-377 marges-center bg-cyan">Contact</h2>
+            <h2 class="w-377 marges-center">Contact</h2>
             <div class="">
                 <!-- CONTACT -->
                     <p class="marges-5">
