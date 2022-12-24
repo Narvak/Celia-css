@@ -1,4 +1,4 @@
-const slide = ["media/images/", "media/images/", "media/images/", "media/images/"];
+const slide = ["media/images/", "media/images/", "media/images/"];
 let numero = 0;
 
 function ChangeSlide(sens) {
@@ -9,7 +9,7 @@ function ChangeSlide(sens) {
         numero = 0;
     document.getElementById("slide").src = slide[numero];
 }
-setInterval("ChangeSlide(1)", 5000);
+setInterval("ChangeSlide(1)", 9000);
 
 console.log(slide)
 console.log(numero)
