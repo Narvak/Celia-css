@@ -142,7 +142,6 @@
             <div>
                 <div class="slides">
                     <img src="media/images/" alt="image" id="slide">
-
                 </div>
                 <div>
                     <button class="next" onclick="ChangeSlide(-1)">

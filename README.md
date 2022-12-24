@@ -8,7 +8,7 @@
 ### Celia-css
 
 ## Version
-### V 0.8.9
+### V 0.9.5
 
 ## A ajouté
 ### float
