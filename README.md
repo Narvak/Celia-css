@@ -8,19 +8,18 @@
 ### Celia-css
 
 ## Version
-### V 0.9.5
-
-## A ajouté
-### float
-#### [left, right]
+### V 0.9.7
 
 ## A amelioré
-### Renplacé background par background-color
-#### [ .btn-hover-rs ]
-##### rs = reseau sociaux
+### Renplacé background par background-color => v2
+### [ .btn-hover-rs ]
+#### rs = reseau sociaux
 
 ## Date de création
 ### 15/05/2022
+
+## V1 Date :
+### 00/12/2022
 
 ## Créateur
 ### Narvak
