@@ -8,18 +8,20 @@
 ### Celia-css
 
 ## Version
-### V 0.9.9
+### V 1.0.0
 
-## A amelioré
-### Renplacé background par background-color => v2
-### [ .btn-hover-rs ]
-#### rs = reseau sociaux
+## A amelioré pour la V2 :
+### Remplacé background par background-color => v2
+### tout metre dans le dossier src et laissé que les fichier .html et .php.
 
 ## Date de création
 ### 15/05/2022
 
 ## V1 end date :
-### 28/12/2022
+### 27/12/2022
+
+## V2 starting date :
+### 27/12/2022
 
 ## Créateur
 ### Narvak
