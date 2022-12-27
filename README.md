@@ -18,9 +18,6 @@
 ## Date de création
 ### 15/05/2022
 
-## V1 end date :
-### /12/2022
-
 ## Créateur
 ### Narvak
 
