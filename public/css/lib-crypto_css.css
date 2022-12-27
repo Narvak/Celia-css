@@ -730,6 +730,19 @@ nav {
     border: transparent;
 }
 
+.btn-rssn {
+    background-color: var(--lc-bg_color-1);
+    color: var(--lc-text-color-1);
+    width: 89px;
+    height: 89px;
+    border: 1px var(--lc-text-color-1) solid;
+        border-radius: 2px;
+}
+.btn-rssn:hover {
+    background-color: var(--lc-bg_color-7);
+    color: var(--lc-text-color-7);
+}
+
 /* background */
 .bg-blue {
     background-color: blue;
@@ -1046,7 +1059,6 @@ tr, td, .tr, .td {
 }
 
 /* float */
-
 .float-start {
     float: inline-start;
 }

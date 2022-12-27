@@ -8,7 +8,7 @@
 ### Celia-css
 
 ## Version
-### V 0.9.7
+### V 0.9.9
 
 ## A amelioré
 ### Renplacé background par background-color => v2
@@ -17,6 +17,9 @@
 
 ## Date de création
 ### 15/05/2022
+
+## V1 end date :
+### 28/12/2022
 
 ## Créateur
 ### Narvak
