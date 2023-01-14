@@ -1,0 +1,92 @@
+/* Sidenav menu */
+.side-nav {
+  width: 250px;
+  height: auto;
+  position: fixed;
+  transition: left 0.5s ease;
+}
+
+/* Close btn */
+.side-nav {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+    background-color: black;
+    width: 35px;
+    height: 5px;
+    margin: 5px;
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.spanBurger {
+  background-color: black;
+  color: black;
+  width: 89% !important;
+  height: 15% !important;
+  margin: auto;
+  justify-content: space-around;
+  border-radius: 2px;
+  flex-direction: column;
+}
+
+.burger {
+  background-color: white;
+  color: black;
+  width: 55px;
+  height: 55px;
+  border-radius: 2px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.spanRotateSpan {
+  transform: rotate(45deg);
+}
+.spanReversRotateSpan {
+  transform: rotate(-45deg);
+}
+
+/* modal menu */
+
+   /* The Modal (background) */
+    .modal-menu, #myModal {
+      background-color: #7a8a9a;
+      color: #9a8a7a;
+      width: 100%;
+      height: auto;
+      margin: auto;
+      padding: 5px;
+      display: grid;
+      flex-direction: column;
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%; /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover, .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }

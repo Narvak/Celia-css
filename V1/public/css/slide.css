@@ -1,0 +1,153 @@
+/* Slideshow container */
+.slide-show-container {
+    background-color: #3a4a5a;
+    color: black;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+    /* Hide the images by default */
+.slides {
+    width: 100%;
+    height: auto;
+    animation-name: to;
+    animation-duration: 1.5s;
+}
+/* slide */
+.slide, .slide-fluid {
+    width: 100% !important;
+    height: auto !important;
+    animation-name: to;
+    animation-duration: 1.5s;
+}
+.slide-container {
+    width: 0 auto !important;
+    height: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    animation-name: to;
+    animation-duration: 1.5s;
+}
+    /* Next & previous buttons */
+.prev, .next {
+    background-color: #5a6a7a;
+    color: black;
+    width: 34px;
+    height: 34px;
+    margin: auto;
+    border: transparent;
+        border-radius: 3px 3px 3px 3px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+    flex-direction: row;
+}
+
+.prev-span, .next-span {
+    width: 21px;
+    height: 8px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    align-items: center;
+}
+    /* Position the "next button" to the right */
+.next {
+    right: 0;
+}
+    /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #5a6a7a;
+    opacity: 0.5;
+}
+    /* Caption text */
+.slide-text {
+    background-color: #5a6a7a;
+    color: #9a8a7a;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 8px 12px;
+    text-align: center;
+    position: absolute;
+    bottom: 8px;
+    font-size: 15px;    
+}
+    /* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+    /* The dots/bullets/indicators */
+.circle-dot {
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #7a8a9a;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.square-dot {
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #7a8a9a;
+    display: inline-block;
+}
+.rectangle-dot {
+    cursor: pointer;
+    width: 55px;
+    height: 13px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #7a8a9a;
+    display: inline-block;
+}
+
+.active-slide, .circle-dot:hover, .square-dot:hover, .rectangle-dot:hover {
+    background-color: #1a2a3a;
+}
+    /* Fading animation */
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes to {
+    0% {
+        background-image: url(media/images/);
+    }
+    33.33% {
+        background-image: url(media/images/);
+    }
+    66.67% {
+        background-image: url(media/images/);
+    }
+    100% {
+        background-image: url(media/images/);
+    }
+}

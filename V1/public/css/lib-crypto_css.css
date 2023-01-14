@@ -1,0 +1,1067 @@
+/* root */
+@charset "UTF-8";
+
+/*
+    * name : Celia-css
+    * git hub : https://github.com/narvak/Celia-css
+*/
+:root, #root, .root {
+    --lc-primary: #007bff;
+    --lc-secondary: #6c757d;
+    --lc-success: #28a745;
+    --lc-info: #17a2b8;
+    --lc-warning: #ffc107;
+    --lc-danger: #dc3545;
+    --lc-light: #f8f9fa;
+    --lc-dark: #343a40;
+
+    --lc-font-light: "calibri" light sans-serif;
+    --lc-font-regular: "calibri" regular sans-serif;
+    --lc-font-bold: "calibri" bold sans-serif;
+
+    --lc-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --lc-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --lc-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --lc-body-font-family: var(--lc-font-sans-serif);
+    --lc-body-font-size: 1rem;
+    --lc-body-font-weight: 400;
+    --lc-body-line-height: 1.5;
+    --lc-body-color: #212529;
+    --lc-body-bg: #fff;
+
+    --lc-text-color-1: #9a8a7a;
+    --lc-text-color-2: #8a7a6a;
+    --lc-text-color-3: #7a6a5a;
+    --lc-text-color-4: #6a5a4a;
+    --lc-text-color-5: #5a4a3a;
+    --lc-text-color-6: #4a3a2a;
+    --lc-text-color-7: #3a2a1a;
+
+    --lc-bg_color-1: #1a2a3a;
+    --lc-bg_color-2: #2a3a4a;
+    --lc-bg_color-3: #3a4a5a;
+    --lc-bg_color-4: #4a5a6a;
+    --lc-bg_color-5: #5a6a7a;
+    --lc-bg_color-6: #6a7a8a;
+    --lc-bg_color-7: #7a8a9a;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--lc-font-regular);
+    text-align : justify;
+}
+
+/* général */
+body, html {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-text-color-1);
+    font-family: var(--lc-font-regular);
+    text-align : justify;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--lc-font-regular);
+    text-align : justify;
+}
+marquee {
+    background: var(--lc-danger);
+    color: var(--lc-warning);
+}
+header, footer {
+    background: var(--lc-bg_color-3);
+    color: var(--lc-text-color1);
+    width: 100%;
+    height: auto;
+}
+main {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-text-color-1);
+    width: 100%;
+    height: auto;
+}
+aside {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-text-color-1);
+    width: 100%;
+    height: auto;
+}
+
+/* aside */
+.aside {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-text-color-1);
+    width: 100%;
+    height: auto;
+}
+.aside-left {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-text-color-1);
+    width: 233px;
+    height: auto;
+    float: inline-start;
+}
+.aside-right {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-text-color-1);
+    width: 233px;
+    height: auto;
+    float: inline-end;
+}
+
+/* id et class */
+.body, .html {
+    background: white;
+    color: var(--lc-bg_color-1);
+    width: 100%;
+    height: auto;
+}
+.header, .footer {
+    background: var(--lc-bg_color-3);
+    color: var(--lc-text-color-1);
+    width: 100%;
+    height: auto;
+}
+.contact {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-text-color-1);
+    width: 100%;
+    height: auto;
+}
+.logo {
+    background: transparent;
+    width: 144px;
+    height: auto;
+}
+.active {
+    background-color: var(--lc-primary) !important;
+    color: var(--lc-light) !important;
+}
+.filter {
+    border: 2px solid var(--lc-bg_color-2);
+        border-radius: 5px;
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+.section {
+    width: 100%;
+    height: auto;
+}
+.conteneur {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-text-color-1);
+    width: 100%;
+    height: auto;
+}
+.container {
+    background: var(--lc-bg_color-5);
+    color: black;
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+.container-fluid {
+    background: var(--lc-bg_color-7);
+    color: black;
+    width: 100%;
+    height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.contenaire {
+    background: white;
+    color: var(--lc-bg_color-1);
+    width: 100%;
+    height: auto;
+}
+.child {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-text-color-1);
+    width: 0 auto;
+    height: auto;
+}
+.children {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-text-color-1);
+    width: 0 auto;
+    height: auto;
+}
+
+/* img */
+.img-square {
+    background-color: white;
+    width: 144px;
+    height: 144px;
+    border: transparent;
+        border-radius: 15px;
+}
+.img-circle {
+    background-color: white;
+    width: 144px;
+    height: 144px;
+    border: transparent;
+        border-radius: 100%;
+}
+.img-square-h {
+    background-color: white;
+    width: 144px;
+    height: 233px;
+    border: transparent;
+        border-radius: 15px;
+}
+.img-square-l {
+    background-color: white;
+    width: 233px;
+    height: 144px;
+    border: transparent;
+        border-radius: 15px;
+}
+.img-fluid {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    border: transparent;
+        border-radius: 15px;
+}
+
+/* box-shadow */
+.box-shadow {
+    box-shadow: 0px 0px 10px 0px var(--lc-bg_color-5);
+}
+.box-shadow-primary {
+    box-shadow: 0px 0px 10px 0px var(--lc-primary);
+}
+.box-shadow-secondary {
+    box-shadow: 0px 0px 10px 0px var(--lc-secondary);
+}
+.box-shadow-success {
+    box-shadow: 0px 0px 10px 0px var(--lc-success);
+}
+.box-shadow-info {
+    box-shadow: 0px 0px 10px 0px var(--lc-info);
+}
+.box-shadow-warning {
+    box-shadow: 0px 0px 10px 0px var(--lc-warning);
+}
+.box-shadow-danger {
+    box-shadow: 0px 0px 10px 0px var(--lc-danger);
+}
+.box-shadow-light {
+    box-shadow: 0px 0px 10px 0px var(--lc-light);
+}
+.box-shadow-dark {
+    box-shadow: 0px 0px 10px 0px var(--lc-dark);
+}
+
+/* width */
+.w-13 {
+    width: 13px;
+}
+.w-21 {
+    width: 21px;
+}
+.w-34 {
+    width: 34px;
+}
+.w-55 {
+    width: 55px;
+}
+.w-89 {
+    width: 89px;
+}
+.w-144 {
+    width: 144px;
+}
+.w-233 {
+    width: 233px;
+}
+.w-377 {
+    width: 377px;
+}
+.w-610 {
+    width: 610px;
+}
+.w-987 {
+    width: 987px;
+}
+.w-1597 {
+    width: 1597px;
+}
+
+/* height */
+.h-13 {
+    height: 13px;
+}
+.h-21 {
+    height: 21px;
+}
+.h-34 {
+    height: 34px;
+}
+.h-55 {
+    height: 55px;
+}
+.h-89 {
+    height: 89px;
+}
+.h-144 {
+    height: 144px;
+}
+.h-233 {
+    height: 233px;
+}
+.h-377 {
+    height: 377px;
+}
+.h-610 {
+    height: 610px;
+}
+.h-987 {
+    height: 987px;
+}
+.h-1597 {
+    height: 1597px;
+}
+
+/* flex */
+.flex {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.flex-left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.flex-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+/* grid */
+.grid {
+    display: grid;
+    column-gap: auto;
+    row-gap: auto;
+    padding: 5px;
+}
+.grid-container {
+    display: inline-block;
+    width: 35%;
+    height: auto;
+}
+.wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+/* nav */
+nav {
+    background-color: var(--lc-bg_color-3);
+    color: var(--lc-text-color-1);
+    width: 100%;
+    height: auto;
+}
+.nav {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-text-color-1);
+    width: 100%;
+    height: 100%;
+}
+.navlink {
+    color: black;
+}
+.navbarre {
+    background-color: white;
+    color: var(--lc-bg_color-1);
+}
+.nav-right {
+    float: inline-end;
+    flex-direction: row;
+}
+.nav-left {
+    float: inline-start;
+    flex-direction: row;
+}
+
+/* border */
+.b-transparent {
+    border: transparent;
+}
+.b-primary {
+    border: 1px solid var(--lc-primary);
+}
+.b-secondary {
+    border: 1px solid var(--lc-secondary);
+}
+.b-success {
+    border: 1px solid var(--lc-success);
+}
+.b-info {
+    border: 1px solid var(--lc-info);
+}
+.b-warning {
+    border: 1px solid var(--lc-warning);
+}
+.b-danger {
+    border: 1px solid var(--lc-danger);
+}
+.b-light {
+    border: 1px solid var(--lc-light);
+}
+.b-dark {
+    border: 1px solid var(--lc-dark);
+}
+
+/* border radius */
+.b-r-transparent {
+    border: transparent;
+        border-radius: 5px;
+}
+.b-r-primary {
+    border: 3px solid var(--lc-primary);
+        border-radius: 5px;
+}
+.b-r-secondary {
+    border: 3px solid var(--lc-secondary);
+        border-radius: 5px;
+}
+.b-r-success {
+    border: 3px solid var(--lc-success);
+        border-radius: 5px;
+}
+.b-r-info {
+    border: 3px solid var(--lc-info);
+        border-radius: 5px;
+}
+.b-r-warning {
+    border: 3px solid var(--lc-warning);
+        border-radius: 5px;
+}
+.b-r-danger {
+    border: 3px solid var(--lc-danger);
+        border-radius: 5px;
+}
+.b-r-light {
+    border: 3px solid var(--lc-light);
+        border-radius: 5px;
+}
+.b-r-dark {
+    border: 3px solid var(--lc-dark);
+        border-radius: 5px;
+}
+
+/* card */
+.card {
+    background-color: white;
+    color: black;
+    width: 144px;
+    height: auto;
+}
+.card-primary {
+    background-color: var(--lc-primary);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+.card-secondary {
+    background-color: var(--lc-secondary);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+.card-success {
+    background-color: var(--lc-success);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+.card-info {
+    background-color: var(--lc-info);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+.card-warning {
+    background-color: var(--lc-warning);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+.card-danger {
+    background-color: var(--lc-danger);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+.card-light {
+    background-color: var(--lc-light);
+    color: var(--lc-text-color-1);
+    width: 144px;
+    height: auto;
+}
+
+/* card-fluid */
+.card-fluid {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: auto;
+}
+.card-fluid-primary {
+    background-color: var(--lc-primary);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.card-fluid-secondary {
+    background-color: var(--lc-secondary);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.card-fluid-success {
+    background-color: var(--lc-success);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.card-fluid-info {
+    background-color: var(--lc-info);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.card-fluid-warning {
+    background-color: var(--lc-warning);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.card-fluid-danger {
+    background-color: var(--lc-danger);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.card-fluid-light {
+    background-color: var(--lc-light);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.card-fluid-transparent {
+    background-color: transparent;
+    color: black;
+    width: 100%;
+    height: auto;
+}
+
+/* card-container */
+.card-container {
+    background-color: white;
+    color: black;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container-primary {
+    background-color: var(--lc-primary);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container-secondary {
+    background-color: var(--lc-secondary);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container-success {
+    background-color: var(--lc-success);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container-info {
+    background-color: var(--lc-info);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container-warning {
+    background-color: var(--lc-warning);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container-danger {
+    background-color: var(--lc-danger);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container-light {
+    background-color: var(--lc-light);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* button */
+.button, .btn {
+    width: 144px !important;
+    height: 55px !important;
+    border: transparent;
+        border-radius: 5px;
+    text-align: center;
+}
+.btn-active {
+    background-color: var(--lc-primary) !important;
+    color: var(--lc-light) !important;
+    width: auto;
+    height: auto;
+    border: transparent;
+        border-radius: 5px;
+    text-align: center;
+}
+.btn-nav {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-text-color-2);
+    border: transparent;
+        border-radius: 10px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.btn-fluid {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: transparent;
+}
+.btn-primary {
+    background-color: var(--lc-primary);
+    color: white;
+    border: transparent;
+}
+.btn-secondary {
+    background-color: var(--lc-secondary);
+    color: white;
+    border: transparent;
+}
+.btn-success {
+    background-color: var(--lc-success);
+    color: white;
+    border: transparent;
+}
+.btn-info {
+    background-color: var(--lc-info);
+    color: white;
+    border: transparent;
+}
+.btn-warning {
+    background-color: var(--lc-warning);
+    color: white;
+    border: transparent;
+}
+.btn-danger {
+    background-color: var(--lc-danger);
+    color: white;
+    border: transparent;
+}
+.btn-light {
+    background-color: var(--lc-light);
+    color: var(--lc-dark);
+    border: transparent;
+}
+.btn-dark {
+    background-color: var(--lc-dark);
+    color: var(--lc-light);
+    border: transparent;
+}
+.btn-right {
+    float: inline-end;
+    border: transparent;
+}
+
+.btn-rssn {
+    background-color: var(--lc-bg_color-1);
+    color: var(--lc-text-color-1);
+    width: 89px;
+    height: 89px;
+    border: 1px var(--lc-text-color-1) solid;
+        border-radius: 2px;
+}
+.btn-rssn:hover {
+    background-color: var(--lc-bg_color-7);
+    color: var(--lc-text-color-7);
+}
+
+/* background */
+.bg-blue {
+    background-color: blue;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-brown {
+    background-color: brown;
+}
+.bg-yellow {
+    background-color: yellow;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-cyan {
+    background-color: cyan;
+}
+.bg-magenta {
+    background-color: magenta;
+}
+.bg-beige {
+    background-color: beige;
+}
+.bg-violet {
+    background-color: violet;
+}
+.bg-gold {
+    background-color: gold;
+}
+.bg-silver {
+    background-color: silver;
+}
+
+.bg-one-color {
+    background-color: var(--lc-bg_color-1);
+    margin: 5px;
+    padding: 5px;
+}
+.bg-two-color {
+    background-color: var(--lc-bg_color-2);
+    margin: 5px;
+    padding: 5px;
+}
+.bg-three-color {
+    background-color: var(--lc-bg_color-3);
+    margin: 5px;
+    padding: 5px;
+}
+.bg-four-color {
+    background-color: var(--lc-bg_color-4);
+    margin: 5px;
+    padding: 5px;
+}
+.bg-five-color {
+    background-color: var(--lc-bg_color-5);
+    margin: 5px;
+    padding: 5px;
+}
+.bg-six-color {
+    background-color: var(--lc-bg_color-6);
+    margin: 5px;
+    padding: 5px;
+}
+.bg-seven-color {
+    background-color: var(--lc-bg_color-7);
+    margin: 5px;
+    padding: 5px;
+}
+
+    /* Background size */
+    .bg-size {
+        width: 100%;
+        height: auto;
+        margin: 5px;
+        padding: 5xp;
+    }
+    .bg-size-100 {
+        width: 100%;
+        height: 100%;
+    }
+    .bg-size-auto {
+        width: auto;
+        height: auto;
+    }
+
+/* text */
+.text-blue {
+    color: blue;
+}
+.text-red {
+    color: red;
+}
+.text-brown {
+    color: brown;
+}
+.text-yellow {
+    color: yellow;
+}
+.text-green {
+    color: green;
+}
+.text-cyan {
+    color: cyan;
+}
+.text-magenta {
+    color: magenta;
+}
+.text-beige {
+    color: beige;
+}
+.text-violet {
+    color: violet;
+}
+.text-gold {
+    color: gold;
+}
+.text-silver {
+    color: silver;
+}
+
+.text-1 {
+    color: var(--lc-bg_color-1);
+}
+.text-2 {
+    color: var(--lc-bg_color-2);
+}
+.text-3 {
+    color: var(--lc-bg_color-3);
+}
+.text-4 {
+    color: var(--lc-bg_color-4);
+}
+.text-5 {
+    color: var(--lc-bg_color-5);
+}
+.text-6 {
+    color: var(--lc-bg_color-4);
+}
+.text-7 {
+    color: var(--lc-bg_color-4);
+}
+
+.text-active {
+    background: transparent;
+    color: var(--lc-light);
+    font: var(--lc-font-bold);
+}
+.text-active-botom {
+    background: transparent;
+    color: var(--lc-text-color-1);
+    font: var(--lc-font-bold);
+    border-bottom: 3px var(--lc-text-color-1) solid;
+}
+.text-active-top {
+    background: transparent;
+    color: var(--lc-text-color-1);
+    font: var(--lc-font-bold);
+    border-top: 3px var(--lc-text-color-1) solid;
+}
+.text-active-right {
+    background: transparent;
+    color: var(--lc-text-color-1);
+    font: var(--lc-font-bold);
+    border-right: 3px var(--lc-text-color-1) solid;
+}
+.text-active-left {
+    background: transparent;
+    color: var(--lc-text-color-1);
+    font: var(--lc-font-bold);
+    border-left: 3px var(--lc-text-color-1) solid;
+}
+
+/* mode */
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+    .light-mode {
+        background-color: white;
+        color: black;
+    }
+    .gray-mode {
+        background-color: gray;
+        color: black;
+    }
+    .blue-mode {
+        background-color: blue;
+        color: white;
+    }
+    .red-mode {
+        background-color: red;
+        color: white;
+    }
+    .brown-mode {
+        background-color: brown;
+        color: white;
+    }
+    .yellow-mode {
+        background-color: yellow;
+        color: black;
+    }
+    .green-mode {
+        background-color: green;
+        color: black;
+    }
+    .cyan-mode {
+        background-color: cyan;
+        color: black;
+    }
+    .magenta-mode {
+        background-color: magenta;
+        color: black;
+    }
+    .beige-mode {
+        background-color: beige;
+        color: black;
+    }
+    .violet-mode {
+        background-color: violet;
+        color: black;
+    }
+    .gold-mode {
+        background-color: gold;
+        color: black;
+    }
+    .silver-mode {
+        background-color: silver;
+        color: black;
+    }
+    .button-mode {
+        background: var(--lc-bg_color-2);
+        color: var(--lc-text-color-2);
+        width: 100px;
+        height: 50px;
+        border: transparent;
+            border-radius: 5px;
+    }
+
+/* marges */
+.marges {
+    margin: auto;
+    padding: auto;
+}
+.marges-5 {
+    margin: 5px;
+    padding: 5px;
+}
+.marges-10 {
+    margin: 10px;
+    padding: 10px;
+}
+.marges-15 {
+    margin: 15px;
+    padding: 15px;
+}
+.marges-center {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    align-items: center;
+}
+
+/* table */
+table, .table {
+    background: white;
+    color: var(--lc-black-rgb);
+    width: 100%;
+    height: auto;
+    border: 1px var(--lc-black-rgb) solid;
+}
+tr, td, .tr, .td {
+    background: white;
+    color: var(--lc-black-rgb);
+    width: auto;
+    height: auto;
+    border: 1px var(--lc-black-rgb) solid;
+}
+
+/* imput */
+.form {
+    width: 89%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+}
+.input {
+    width: 34%;
+    height: auto;
+    border: transparent;
+        border-radius: 5px;
+    flex-direction: column;
+}
+
+.send {
+    width: auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.textarea {
+    width: 34%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border: transparent;
+        border-radius: 5px;
+    flex-direction: column;
+}
+
+/* float */
+.float-start {
+    float: inline-start;
+}
+.float-end {
+    float: inline-end;
+}

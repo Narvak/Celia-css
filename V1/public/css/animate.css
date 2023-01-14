@@ -1,0 +1,51 @@
+#effect-1, .effect-1 {
+    text-transform: uppercase;
+}
+    #effect-1::before, .effect-1::before {
+        content: "lorem";
+        text-transform: uppercase;
+        animation: aaa 60s infinite;
+    }
+
+    @keyframes aaa {
+        0% {
+            background: black;
+            color: white;
+            width: 100%;
+            height: auto;
+            text-transform: uppercase;
+            content: "Lorem";
+        }
+        25% {
+            background: white;
+            color: black;
+            width: 100%;
+            height: auto;
+            text-transform: uppercase;
+            content: "Ipsum";
+        }
+        50% {
+            background: blue;
+            color: white;
+            width: 100%;
+            height: auto;
+            text-transform: uppercase;
+            content: "Lorem Ipsum";
+        }
+        75% {
+            background: red;
+            color: white;
+            width: 100%;
+            height: auto;
+            text-transform: uppercase;
+            content: "Ipsum";
+        }
+        100% {
+            background: transparent;
+            color: white;
+            width: 100%;
+            height: auto;
+            text-transform: uppercase;
+            content: "Lorem";
+        }
+    }

@@ -1,0 +1,168 @@
+/* width 1920px */
+@media only screen and (max-width:1920) {
+  .spanBurger {
+    background-color: transparent;
+    color: transparent;
+    width: 0px;
+    height: 0px;
+    flex-direction: column;
+  }
+
+  .burger {
+    background-color: transparent;
+    color: transparent;
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+    position: relative;
+    flex-direction: column;
+    border: transparent;
+  }
+  .close-modal {
+    background-color: transparent;
+    color: transparent;
+    width: 0px;
+    height: 0px;
+    border: transparent;
+  }
+  .nav-modal {
+    background-color: transparent;
+    color: transparent;
+    width: 0;
+    height: 0;
+  }
+}
+
+/* width 1400px */
+/* width 1201px */
+@media only screen and (min-width:1201px) {
+  .spanBurger {
+    background-color: transparent;
+    color: transparent;
+    width: 0px;
+    height: 0px;
+    flex-direction: column;
+  }
+
+  .burger {
+    background-color: transparent;
+    color: transparent;
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+    position: relative;
+    flex-direction: column;
+    border: transparent;
+  }
+}
+
+/* width 1200px */
+@media only screen and (max-width:1200px) {
+  /* menu */
+  .side-nav, .home  {
+    background-color: transparent !important;
+    color: transparent !important;
+    width: 0 !important;
+    height: 0 !important;
+    border: transparent !important;
+    top: 0 !important;
+    right: 0 !important;
+    font-size: 0pt !important;
+  }
+  .side-nav a {
+    background-color: transparent;
+    color: transparent;
+    width: 0;
+    height: 0;
+    border: transparent;
+  }
+  .side-nav button {
+    background-color: transparent;
+    color: transparent;
+    width: 0;
+    height: 0;
+    border: transparent;
+  }
+
+  /* burger */
+  .spanBurger {
+    background-color: black;
+    color: black;
+    width: 89% !important;
+    height: 15% !important;
+    margin: auto;
+    justify-content: space-around;
+    border-radius: 2px;
+    flex-direction: column;
+  }
+
+  .burger {
+    background-color: white;
+    color: black;
+    width: 55px;
+    height: 55px;
+    border-radius: 2px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    border: transparent;
+  }
+
+  .close-modal {
+    width: 34px;
+    height: 34px;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    border: transparent;
+  }
+  .nav-modal {
+    width: 50%;
+    height: auto;
+    display: block;
+    flex-direction: column;
+  }
+}
+
+/* width 1080px */
+@media only screen and (max-width:1080px) {
+
+}
+
+/* width 992px */
+@media only screen and (max-width:992px) {
+
+}
+
+/* width 840px */
+@media only screen and (max-width:840px) {
+
+}
+
+/* width 768px */
+@media only screen and (max-width:768px) {
+
+}
+
+/* width 576px */
+@media only screen and (max-width:576px) {
+
+}
+
+/* width 448px */
+@media only screen and (max-width:448px) {
+
+}
+
+/* width 240px */
+@media only screen and (max-width:240px) {
+
+}
+
+
+/* autre */
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
