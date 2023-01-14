@@ -20,9 +20,6 @@
 ## V1 end date :
 ### 27/12/2022
 
-## V2 starting date :
-### 27/12/2022
-
 ## Créateur
 ### Narvak
 

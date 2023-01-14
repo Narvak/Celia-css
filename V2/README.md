@@ -8,16 +8,10 @@
 ### Celia-css
 
 ## Version
-### V 1.0.0
+### V 1.2.1
 
 ## A amelioré pour la V2 :
 ### Remplacé background par background-color => v2
-
-## Date de création
-### 15/05/2022
-
-## V1 end date :
-### 27/12/2022
 
 ## V2 starting date :
 ### 27/12/2022
